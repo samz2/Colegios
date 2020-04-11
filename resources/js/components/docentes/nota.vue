@@ -52,26 +52,26 @@
                         </div>
                         <table border="1" id="table" width="400" class="table table-bordered table-hover text-center" >
                             <tr>
-                                <td colspan="8"><b>I.E.P. "LA PRE"</b></td>
+                                <td colspan="8" class="bg-primary"><b>I.E.P. "LA PRE"</b></td>
                             </tr>
                             <tr>
-                                <td colspan="8"><b>REGISTRO AUXILIAR DE NOTAS 2019</b></td>
+                                <td colspan="8" class="bg-secondary"><b>REGISTRO AUXILIAR DE NOTAS 2019</b></td>
                             </tr>
                             <tr>
-                                <td colspan="2" class="text-right"><b>ASIGNATURA</b></td>
-                                <td colspan="6" class="text-center"><b>{{area}}</b></td><!--nombre del curso-->
+                                <td colspan="2" class="text-right bg-warning"><b>ASIGNATURA</b></td>
+                                <td colspan="6" class="text-center bg-info"><b>{{area}}</b></td><!--nombre del curso-->
                             </tr>
                             <tr>
-                                <td colspan="2" class="text-right"><b>PROFESOR</b></td>
-                                <td colspan="6" class="text-center"><b>{{nombre}}</b></td>                                
+                                <td colspan="2" class="text-right bg-warning"><b>PROFESOR</b></td>
+                                <td colspan="6" class="text-center bg-info"><b>{{nombre}}</b></td>                                
                             </tr>
                             <tr>
-                                <td colspan="2" class="text-right"><b>BIMESTRE</b></td>
-                                <td colspan="6" class="text-center"><b>{{bimestre}}</b></td>
+                                <td colspan="2" class="text-right bg-warning"><b>BIMESTRE</b></td>
+                                <td colspan="6" class="text-center bg-info"><b>{{bimestre}}</b></td>
                             </tr>
                             <tr>
-                                <td colspan="2" class="text-right"><b>CAPACIDAD</b></td>
-                                <td colspan="6"><b>{{capacidad}}</b></td>
+                                <td colspan="2" class="text-right bg-warning"><b>CAPACIDAD</b></td>
+                                <td colspan="6" class="bg-info"><b>{{capacidad}}</b></td>
                             </tr>
                             <tr style="font-size: 10px;vertical-align:middle;">
                                 <td><b>N°</b></td>
@@ -89,10 +89,10 @@
                                 <td>{{a.indice}}</td>
                                 <td class="text-left">{{a.alumno}}</td>
                                 <!-- <td><input type="button"></td> -->
-                                <td><input type="text" @blur="validar(index)" size="4" v-model="a.c1" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="2"></td>
-                                <td><input type="text" @blur="validar(index)" size="4" v-model="a.c2" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="2"></td>
-                                <td><input type="text" @blur="validar(index)" size="4" v-model="a.c3" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="2"></td>
-                                <td><input type="text" @blur="validar(index)" size="4" v-model="a.bimestral" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="2"></td>
+                                <td><input type="text" @blur="validar(index)" size="4" v-model="a.c1" onkeypress='return solonumeros(event)' maxlength="2"></td>
+                                <td><input type="text" @blur="validar(index)" size="4" v-model="a.c2" onkeypress='return solonumeros(event)' maxlength="2"></td>
+                                <td><input type="text" @blur="validar(index)" size="4" v-model="a.c3" onkeypress='return solonumeros(event)' maxlength="2"></td>
+                                <td><input type="text" @blur="validar(index)" size="4" v-model="a.bimestral" onkeypress='return solonumeros(event)' maxlength="2"></td>
                                 <td><input type="text" size="4" v-model="a.simulacro" readonly></td>
                                 <td><input type="text" size="4" readonly v-model="a.promedio"></td>
                             </tr>
@@ -260,27 +260,14 @@ import { isNullOrUndefined } from 'util';
                 alumnos: this.alumnos,
 			}).then(data=>{
                 
-                if(data.data.condicion)
-                {
-                    swal({
-                        // position: 'top-en]d',
-                        type: 'success',
-                        title: 'Registro ingresado Corretamente',
-                        showConfirmButton: false,
-                        timer: 2000
-                    });
-                }else{
-                    swal({
-                        // position: 'top-en]d',
-                        type: 'error',
-                        title: 'Registro ya fue ingresado!',
-                        showConfirmButton: false,
-                        timer: 2000
-                    });
-                }
-				// setTimeout(() => {
-				// 	location.reload();
-				// }, 1500);
+                swal({
+                    type: data.data.type,
+                    title: data.data.title,
+                    title: data.data.text,
+                });
+				setTimeout(() => {
+					location.reload();
+				}, 2000);
 			}).catch(error=>{
 				console.log(error);	
 			})
@@ -291,7 +278,17 @@ import { isNullOrUndefined } from 'util';
         },
         validar(index)
         {
-            // this.prom(index);
+            if(this.alumnos[index].c1 == null || 
+               this.alumnos[index].c2 == null || 
+               this.alumnos[index].c3 == null || 
+               this.alumnos[index].bimestral == null || 
+               this.alumnos[index].c1 == '' || 
+               this.alumnos[index].c2 == '' || 
+               this.alumnos[index].c3 == '' ||
+               this.alumnos[index].bimestral == '')
+            {
+                return;
+            }
             var n = 0;
             var acum = 0;
             var prom = 0;

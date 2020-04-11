@@ -56,14 +56,14 @@
         max-width: 1140px;
     }
     }
-
+    /* 
     .container-fluid {
     width: 100%;
     padding-right: 7.5px;
     padding-left: 7.5px;
     margin-right: auto;
     margin-left: auto;
-    }
+    } */
 
     .row {
     display: -webkit-box;
@@ -190,554 +190,7 @@
     }
 
 
-    .offset-1 {
-    margin-left: 8.333333%;
-    }
 
-    .offset-2 {
-    margin-left: 16.666667%;
-    }
-
-    .offset-3 {
-    margin-left: 25%;
-    }
-
-    .offset-4 {
-    margin-left: 33.333333%;
-    }
-
-    .offset-5 {
-    margin-left: 41.666667%;
-    }
-
-    .offset-6 {
-    margin-left: 50%;
-    }
-
-    .offset-7 {
-    margin-left: 58.333333%;
-    }
-
-    .offset-8 {
-    margin-left: 66.666667%;
-    }
-
-    .offset-9 {
-    margin-left: 75%;
-    }
-
-    .offset-10 {
-    margin-left: 83.333333%;
-    }
-
-    .offset-11 {
-    margin-left: 91.666667%;
-    }
-
-    @media (min-width: 576px) {
-    .col-sm {
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-        -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
-        max-width: 100%;
-    }
-    .col-sm-auto {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 auto;
-                flex: 0 0 auto;
-        width: auto;
-        max-width: none;
-    }
-    .col-sm-1 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 8.333333%;
-                flex: 0 0 8.333333%;
-        max-width: 8.333333%;
-    }
-    .col-sm-2 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 16.666667%;
-                flex: 0 0 16.666667%;
-        max-width: 16.666667%;
-    }
-    .col-sm-3 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 25%;
-                flex: 0 0 25%;
-        max-width: 25%;
-    }
-    .col-sm-4 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 33.333333%;
-                flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-    }
-    .col-sm-5 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 41.666667%;
-                flex: 0 0 41.666667%;
-        max-width: 41.666667%;
-    }
-    .col-sm-6 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .col-sm-7 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 58.333333%;
-                flex: 0 0 58.333333%;
-        max-width: 58.333333%;
-    }
-    .col-sm-8 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 66.666667%;
-                flex: 0 0 66.666667%;
-        max-width: 66.666667%;
-    }
-    .col-sm-9 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 75%;
-                flex: 0 0 75%;
-        max-width: 75%;
-    }
-    .col-sm-10 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 83.333333%;
-                flex: 0 0 83.333333%;
-        max-width: 83.333333%;
-    }
-    .col-sm-11 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 91.666667%;
-                flex: 0 0 91.666667%;
-        max-width: 91.666667%;
-    }
-    .col-sm-12 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 100%;
-                flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .offset-sm-0 {
-        margin-left: 0;
-    }
-    .offset-sm-1 {
-        margin-left: 8.333333%;
-    }
-    .offset-sm-2 {
-        margin-left: 16.666667%;
-    }
-    .offset-sm-3 {
-        margin-left: 25%;
-    }
-    .offset-sm-4 {
-        margin-left: 33.333333%;
-    }
-    .offset-sm-5 {
-        margin-left: 41.666667%;
-    }
-    .offset-sm-6 {
-        margin-left: 50%;
-    }
-    .offset-sm-7 {
-        margin-left: 58.333333%;
-    }
-    .offset-sm-8 {
-        margin-left: 66.666667%;
-    }
-    .offset-sm-9 {
-        margin-left: 75%;
-    }
-    .offset-sm-10 {
-        margin-left: 83.333333%;
-    }
-    .offset-sm-11 {
-        margin-left: 91.666667%;
-    }
-    }
-
-    @media (min-width: 768px) {
-    .col-md {
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-        -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
-        max-width: 100%;
-    }
-    .col-md-auto {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 auto;
-                flex: 0 0 auto;
-        width: auto;
-        max-width: none;
-    }
-    .col-md-1 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 8.333333%;
-                flex: 0 0 8.333333%;
-        max-width: 8.333333%;
-    }
-    .col-md-2 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 16.666667%;
-                flex: 0 0 16.666667%;
-        max-width: 16.666667%;
-    }
-    .col-md-3 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 25%;
-                flex: 0 0 25%;
-        max-width: 25%;
-    }
-    .col-md-4 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 33.333333%;
-                flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-    }
-    .col-md-5 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 41.666667%;
-                flex: 0 0 41.666667%;
-        max-width: 41.666667%;
-    }
-    .col-md-6 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .col-md-7 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 58.333333%;
-                flex: 0 0 58.333333%;
-        max-width: 58.333333%;
-    }
-    .col-md-8 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 66.666667%;
-                flex: 0 0 66.666667%;
-        max-width: 66.666667%;
-    }
-    .col-md-9 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 75%;
-                flex: 0 0 75%;
-        max-width: 75%;
-    }
-    .col-md-10 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 83.333333%;
-                flex: 0 0 83.333333%;
-        max-width: 83.333333%;
-    }
-    .col-md-11 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 91.666667%;
-                flex: 0 0 91.666667%;
-        max-width: 91.666667%;
-    }
-    .col-md-12 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 100%;
-                flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .offset-md-0 {
-        margin-left: 0;
-    }
-    .offset-md-1 {
-        margin-left: 8.333333%;
-    }
-    .offset-md-2 {
-        margin-left: 16.666667%;
-    }
-    .offset-md-3 {
-        margin-left: 25%;
-    }
-    .offset-md-4 {
-        margin-left: 33.333333%;
-    }
-    .offset-md-5 {
-        margin-left: 41.666667%;
-    }
-    .offset-md-6 {
-        margin-left: 50%;
-    }
-    .offset-md-7 {
-        margin-left: 58.333333%;
-    }
-    .offset-md-8 {
-        margin-left: 66.666667%;
-    }
-    .offset-md-9 {
-        margin-left: 75%;
-    }
-    .offset-md-10 {
-        margin-left: 83.333333%;
-    }
-    .offset-md-11 {
-        margin-left: 91.666667%;
-    }
-    }
-
-    @media (min-width: 992px) {
-    .col-lg {
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-        -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
-        max-width: 100%;
-    }
-    .col-lg-auto {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 auto;
-                flex: 0 0 auto;
-        width: auto;
-        max-width: none;
-    }
-    .col-lg-1 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 8.333333%;
-                flex: 0 0 8.333333%;
-        max-width: 8.333333%;
-    }
-    .col-lg-2 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 16.666667%;
-                flex: 0 0 16.666667%;
-        max-width: 16.666667%;
-    }
-    .col-lg-3 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 25%;
-                flex: 0 0 25%;
-        max-width: 25%;
-    }
-    .col-lg-4 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 33.333333%;
-                flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-    }
-    .col-lg-5 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 41.666667%;
-                flex: 0 0 41.666667%;
-        max-width: 41.666667%;
-    }
-    .col-lg-6 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .col-lg-7 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 58.333333%;
-                flex: 0 0 58.333333%;
-        max-width: 58.333333%;
-    }
-    .col-lg-8 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 66.666667%;
-                flex: 0 0 66.666667%;
-        max-width: 66.666667%;
-    }
-    .col-lg-9 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 75%;
-                flex: 0 0 75%;
-        max-width: 75%;
-    }
-    .col-lg-10 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 83.333333%;
-                flex: 0 0 83.333333%;
-        max-width: 83.333333%;
-    }
-    .col-lg-11 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 91.666667%;
-                flex: 0 0 91.666667%;
-        max-width: 91.666667%;
-    }
-    .col-lg-12 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 100%;
-                flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .offset-lg-0 {
-        margin-left: 0;
-    }
-    .offset-lg-1 {
-        margin-left: 8.333333%;
-    }
-    .offset-lg-2 {
-        margin-left: 16.666667%;
-    }
-    .offset-lg-3 {
-        margin-left: 25%;
-    }
-    .offset-lg-4 {
-        margin-left: 33.333333%;
-    }
-    .offset-lg-5 {
-        margin-left: 41.666667%;
-    }
-    .offset-lg-6 {
-        margin-left: 50%;
-    }
-    .offset-lg-7 {
-        margin-left: 58.333333%;
-    }
-    .offset-lg-8 {
-        margin-left: 66.666667%;
-    }
-    .offset-lg-9 {
-        margin-left: 75%;
-    }
-    .offset-lg-10 {
-        margin-left: 83.333333%;
-    }
-    .offset-lg-11 {
-        margin-left: 91.666667%;
-    }
-    }
-
-    @media (min-width: 1200px) {
-    .col-xl {
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-        -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
-        max-width: 100%;
-    }
-    .col-xl-auto {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 auto;
-                flex: 0 0 auto;
-        width: auto;
-        max-width: none;
-    }
-    .col-xl-1 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 8.333333%;
-                flex: 0 0 8.333333%;
-        max-width: 8.333333%;
-    }
-    .col-xl-2 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 16.666667%;
-                flex: 0 0 16.666667%;
-        max-width: 16.666667%;
-    }
-    .col-xl-3 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 25%;
-                flex: 0 0 25%;
-        max-width: 25%;
-    }
-    .col-xl-4 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 33.333333%;
-                flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-    }
-    .col-xl-5 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 41.666667%;
-                flex: 0 0 41.666667%;
-        max-width: 41.666667%;
-    }
-    .col-xl-6 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .col-xl-7 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 58.333333%;
-                flex: 0 0 58.333333%;
-        max-width: 58.333333%;
-    }
-    .col-xl-8 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 66.666667%;
-                flex: 0 0 66.666667%;
-        max-width: 66.666667%;
-    }
-    .col-xl-9 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 75%;
-                flex: 0 0 75%;
-        max-width: 75%;
-    }
-    .col-xl-10 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 83.333333%;
-                flex: 0 0 83.333333%;
-        max-width: 83.333333%;
-    }
-    .col-xl-11 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 91.666667%;
-                flex: 0 0 91.666667%;
-        max-width: 91.666667%;
-    }
-    .col-xl-12 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 100%;
-                flex: 0 0 100%;
-        max-width: 100%;
-    }
-    
-    .offset-xl-0 {
-        margin-left: 0;
-    }
-    .offset-xl-1 {
-        margin-left: 8.333333%;
-    }
-    .offset-xl-2 {
-        margin-left: 16.666667%;
-    }
-    .offset-xl-3 {
-        margin-left: 25%;
-    }
-    .offset-xl-4 {
-        margin-left: 33.333333%;
-    }
-    .offset-xl-5 {
-        margin-left: 41.666667%;
-    }
-    .offset-xl-6 {
-        margin-left: 50%;
-    }
-    .offset-xl-7 {
-        margin-left: 58.333333%;
-    }
-    .offset-xl-8 {
-        margin-left: 66.666667%;
-    }
-    .offset-xl-9 {
-        margin-left: 75%;
-    }
-    .offset-xl-10 {
-        margin-left: 83.333333%;
-    }
-    .offset-xl-11 {
-        margin-left: 91.666667%;
-    }
-    }
 
     .container {
     width: 100%;
@@ -789,844 +242,6 @@
     margin-left: -15px;
     }
 
-    .no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-    }
-
-    .no-gutters > .col,
-    .no-gutters > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-    }
-
-    .col-1,
-    .col-2,
-    .col-3,
-    .col-4,
-    .col-5,
-    .col-6,
-    .col-7,
-    .col-8,
-    .col-9,
-    .col-10,
-    .col-11,
-    .col-12,
-    .col,
-    .col-auto,
-    .col-sm-1,
-    .col-sm-2,
-    .col-sm-3,
-    .col-sm-4,
-    .col-sm-5,
-    .col-sm-6,
-    .col-sm-7,
-    .col-sm-8,
-    .col-sm-9,
-    .col-sm-10,
-    .col-sm-11,
-    .col-sm-12,
-    .col-sm,
-    .col-sm-auto,
-    .col-md-1,
-    .col-md-2,
-    .col-md-3,
-    .col-md-4,
-    .col-md-5,
-    .col-md-6,
-    .col-md-7,
-    .col-md-8,
-    .col-md-9,
-    .col-md-10,
-    .col-md-11,
-    .col-md-12,
-    .col-md,
-    .col-md-auto,
-    .col-lg-1,
-    .col-lg-2,
-    .col-lg-3,
-    .col-lg-4,
-    .col-lg-5,
-    .col-lg-6,
-    .col-lg-7,
-    .col-lg-8,
-    .col-lg-9,
-    .col-lg-10,
-    .col-lg-11,
-    .col-lg-12,
-    .col-lg,
-    .col-lg-auto,
-    .col-xl-1,
-    .col-xl-2,
-    .col-xl-3,
-    .col-xl-4,
-    .col-xl-5,
-    .col-xl-6,
-    .col-xl-7,
-    .col-xl-8,
-    .col-xl-9,
-    .col-xl-10,
-    .col-xl-11,
-    .col-xl-12,
-    .col-xl,
-    .col-xl-auto {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    }
-
-    .col {
-    -ms-flex-preferred-size: 0;
-        flex-basis: 0;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    max-width: 100%;
-    }
-
-    .col-auto {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-    width: auto;
-    max-width: none;
-    }
-
-    .col-1 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 8.33333333%;
-            flex: 0 0 8.33333333%;
-    max-width: 8.33333333%;
-    }
-
-    .col-2 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 16.66666667%;
-            flex: 0 0 16.66666667%;
-    max-width: 16.66666667%;
-    }
-
-    .col-3 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-            flex: 0 0 25%;
-    max-width: 25%;
-    }
-
-    .col-4 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 33.33333333%;
-            flex: 0 0 33.33333333%;
-    max-width: 33.33333333%;
-    }
-
-    .col-5 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 41.66666667%;
-            flex: 0 0 41.66666667%;
-    max-width: 41.66666667%;
-    }
-
-    .col-6 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-    max-width: 50%;
-    }
-
-    .col-7 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 58.33333333%;
-            flex: 0 0 58.33333333%;
-    max-width: 58.33333333%;
-    }
-
-    .col-8 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 66.66666667%;
-            flex: 0 0 66.66666667%;
-    max-width: 66.66666667%;
-    }
-
-    .col-9 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 75%;
-            flex: 0 0 75%;
-    max-width: 75%;
-    }
-
-    .col-10 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 83.33333333%;
-            flex: 0 0 83.33333333%;
-    max-width: 83.33333333%;
-    }
-
-    .col-11 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 91.66666667%;
-            flex: 0 0 91.66666667%;
-    max-width: 91.66666667%;
-    }
-
-    .col-12 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    max-width: 100%;
-    }
-
-    .offset-1 {
-    margin-left: 8.33333333%;
-    }
-
-    .offset-2 {
-    margin-left: 16.66666667%;
-    }
-
-    .offset-3 {
-    margin-left: 25%;
-    }
-
-    .offset-4 {
-    margin-left: 33.33333333%;
-    }
-
-    .offset-5 {
-    margin-left: 41.66666667%;
-    }
-
-    .offset-6 {
-    margin-left: 50%;
-    }
-
-    .offset-7 {
-    margin-left: 58.33333333%;
-    }
-
-    .offset-8 {
-    margin-left: 66.66666667%;
-    }
-
-    .offset-9 {
-    margin-left: 75%;
-    }
-
-    .offset-10 {
-    margin-left: 83.33333333%;
-    }
-
-    .offset-11 {
-    margin-left: 91.66666667%;
-    }
-
-    @media (min-width: 576px) {
-    .col-sm {
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-        -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
-        max-width: 100%;
-    }
-
-    .col-sm-auto {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 auto;
-                flex: 0 0 auto;
-        width: auto;
-        max-width: none;
-    }
-
-    .col-sm-1 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 8.33333333%;
-                flex: 0 0 8.33333333%;
-        max-width: 8.33333333%;
-    }
-
-    .col-sm-2 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 16.66666667%;
-                flex: 0 0 16.66666667%;
-        max-width: 16.66666667%;
-    }
-
-    .col-sm-3 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 25%;
-                flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .col-sm-4 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 33.33333333%;
-                flex: 0 0 33.33333333%;
-        max-width: 33.33333333%;
-    }
-
-    .col-sm-5 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 41.66666667%;
-                flex: 0 0 41.66666667%;
-        max-width: 41.66666667%;
-    }
-
-    .col-sm-6 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .col-sm-7 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 58.33333333%;
-                flex: 0 0 58.33333333%;
-        max-width: 58.33333333%;
-    }
-
-    .col-sm-8 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 66.66666667%;
-                flex: 0 0 66.66666667%;
-        max-width: 66.66666667%;
-    }
-
-    .col-sm-9 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 75%;
-                flex: 0 0 75%;
-        max-width: 75%;
-    }
-
-    .col-sm-10 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 83.33333333%;
-                flex: 0 0 83.33333333%;
-        max-width: 83.33333333%;
-    }
-
-    .col-sm-11 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 91.66666667%;
-                flex: 0 0 91.66666667%;
-        max-width: 91.66666667%;
-    }
-
-    .col-sm-12 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 100%;
-                flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-
-    .offset-sm-0 {
-        margin-left: 0;
-    }
-
-    .offset-sm-1 {
-        margin-left: 8.33333333%;
-    }
-
-    .offset-sm-2 {
-        margin-left: 16.66666667%;
-    }
-
-    .offset-sm-3 {
-        margin-left: 25%;
-    }
-
-    .offset-sm-4 {
-        margin-left: 33.33333333%;
-    }
-
-    .offset-sm-5 {
-        margin-left: 41.66666667%;
-    }
-
-    .offset-sm-6 {
-        margin-left: 50%;
-    }
-
-    .offset-sm-7 {
-        margin-left: 58.33333333%;
-    }
-
-    .offset-sm-8 {
-        margin-left: 66.66666667%;
-    }
-
-    .offset-sm-9 {
-        margin-left: 75%;
-    }
-
-    .offset-sm-10 {
-        margin-left: 83.33333333%;
-    }
-
-    .offset-sm-11 {
-        margin-left: 91.66666667%;
-    }
-    }
-
-    @media (min-width: 768px) {
-    .col-md {
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-        -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
-        max-width: 100%;
-    }
-
-    .col-md-auto {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 auto;
-                flex: 0 0 auto;
-        width: auto;
-        max-width: none;
-    }
-
-    .col-md-1 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 8.33333333%;
-                flex: 0 0 8.33333333%;
-        max-width: 8.33333333%;
-    }
-
-    .col-md-2 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 16.66666667%;
-                flex: 0 0 16.66666667%;
-        max-width: 16.66666667%;
-    }
-
-    .col-md-3 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 25%;
-                flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .col-md-4 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 33.33333333%;
-                flex: 0 0 33.33333333%;
-        max-width: 33.33333333%;
-    }
-
-    .col-md-5 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 41.66666667%;
-                flex: 0 0 41.66666667%;
-        max-width: 41.66666667%;
-    }
-
-    .col-md-6 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .col-md-7 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 58.33333333%;
-                flex: 0 0 58.33333333%;
-        max-width: 58.33333333%;
-    }
-
-    .col-md-8 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 66.66666667%;
-                flex: 0 0 66.66666667%;
-        max-width: 66.66666667%;
-    }
-
-    .col-md-9 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 75%;
-                flex: 0 0 75%;
-        max-width: 75%;
-    }
-
-    .col-md-10 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 83.33333333%;
-                flex: 0 0 83.33333333%;
-        max-width: 83.33333333%;
-    }
-
-    .col-md-11 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 91.66666667%;
-                flex: 0 0 91.66666667%;
-        max-width: 91.66666667%;
-    }
-
-    .col-md-12 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 100%;
-                flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .offset-md-0 {
-        margin-left: 0;
-    }
-
-    .offset-md-1 {
-        margin-left: 8.33333333%;
-    }
-
-    .offset-md-2 {
-        margin-left: 16.66666667%;
-    }
-
-    .offset-md-3 {
-        margin-left: 25%;
-    }
-
-    .offset-md-4 {
-        margin-left: 33.33333333%;
-    }
-
-    .offset-md-5 {
-        margin-left: 41.66666667%;
-    }
-
-    .offset-md-6 {
-        margin-left: 50%;
-    }
-
-    .offset-md-7 {
-        margin-left: 58.33333333%;
-    }
-
-    .offset-md-8 {
-        margin-left: 66.66666667%;
-    }
-
-    .offset-md-9 {
-        margin-left: 75%;
-    }
-
-    .offset-md-10 {
-        margin-left: 83.33333333%;
-    }
-
-    .offset-md-11 {
-        margin-left: 91.66666667%;
-    }
-    }
-
-    @media (min-width: 992px) {
-    .col-lg {
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-        -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
-        max-width: 100%;
-    }
-
-    .col-lg-auto {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 auto;
-                flex: 0 0 auto;
-        width: auto;
-        max-width: none;
-    }
-
-    .col-lg-1 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 8.33333333%;
-                flex: 0 0 8.33333333%;
-        max-width: 8.33333333%;
-    }
-
-    .col-lg-2 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 16.66666667%;
-                flex: 0 0 16.66666667%;
-        max-width: 16.66666667%;
-    }
-
-    .col-lg-3 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 25%;
-                flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .col-lg-4 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 33.33333333%;
-                flex: 0 0 33.33333333%;
-        max-width: 33.33333333%;
-    }
-
-    .col-lg-5 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 41.66666667%;
-                flex: 0 0 41.66666667%;
-        max-width: 41.66666667%;
-    }
-
-    .col-lg-6 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .col-lg-7 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 58.33333333%;
-                flex: 0 0 58.33333333%;
-        max-width: 58.33333333%;
-    }
-
-    .col-lg-8 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 66.66666667%;
-                flex: 0 0 66.66666667%;
-        max-width: 66.66666667%;
-    }
-
-    .col-lg-9 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 75%;
-                flex: 0 0 75%;
-        max-width: 75%;
-    }
-
-    .col-lg-10 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 83.33333333%;
-                flex: 0 0 83.33333333%;
-        max-width: 83.33333333%;
-    }
-
-    .col-lg-11 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 91.66666667%;
-                flex: 0 0 91.66666667%;
-        max-width: 91.66666667%;
-    }
-
-    .col-lg-12 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 100%;
-                flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .offset-lg-0 {
-        margin-left: 0;
-    }
-
-    .offset-lg-1 {
-        margin-left: 8.33333333%;
-    }
-
-    .offset-lg-2 {
-        margin-left: 16.66666667%;
-    }
-
-    .offset-lg-3 {
-        margin-left: 25%;
-    }
-
-    .offset-lg-4 {
-        margin-left: 33.33333333%;
-    }
-
-    .offset-lg-5 {
-        margin-left: 41.66666667%;
-    }
-
-    .offset-lg-6 {
-        margin-left: 50%;
-    }
-
-    .offset-lg-7 {
-        margin-left: 58.33333333%;
-    }
-
-    .offset-lg-8 {
-        margin-left: 66.66666667%;
-    }
-
-    .offset-lg-9 {
-        margin-left: 75%;
-    }
-
-    .offset-lg-10 {
-        margin-left: 83.33333333%;
-    }
-
-    .offset-lg-11 {
-        margin-left: 91.66666667%;
-    }
-    }
-
-    @media (min-width: 1200px) {
-    .col-xl {
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-        -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
-        max-width: 100%;
-    }
-
-    .col-xl-auto {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 auto;
-                flex: 0 0 auto;
-        width: auto;
-        max-width: none;
-    }
-
-    .col-xl-1 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 8.33333333%;
-                flex: 0 0 8.33333333%;
-        max-width: 8.33333333%;
-    }
-
-    .col-xl-2 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 16.66666667%;
-                flex: 0 0 16.66666667%;
-        max-width: 16.66666667%;
-    }
-
-    .col-xl-3 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 25%;
-                flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .col-xl-4 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 33.33333333%;
-                flex: 0 0 33.33333333%;
-        max-width: 33.33333333%;
-    }
-
-    .col-xl-5 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 41.66666667%;
-                flex: 0 0 41.66666667%;
-        max-width: 41.66666667%;
-    }
-
-    .col-xl-6 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .col-xl-7 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 58.33333333%;
-                flex: 0 0 58.33333333%;
-        max-width: 58.33333333%;
-    }
-
-    .col-xl-8 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 66.66666667%;
-                flex: 0 0 66.66666667%;
-        max-width: 66.66666667%;
-    }
-
-    .col-xl-9 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 75%;
-                flex: 0 0 75%;
-        max-width: 75%;
-    }
-
-    .col-xl-10 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 83.33333333%;
-                flex: 0 0 83.33333333%;
-        max-width: 83.33333333%;
-    }
-
-    .col-xl-11 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 91.66666667%;
-                flex: 0 0 91.66666667%;
-        max-width: 91.66666667%;
-    }
-
-    .col-xl-12 {
-        -webkit-box-flex: 0;
-            -ms-flex: 0 0 100%;
-                flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-
-    .offset-xl-0 {
-        margin-left: 0;
-    }
-
-    .offset-xl-1 {
-        margin-left: 8.33333333%;
-    }
-
-    .offset-xl-2 {
-        margin-left: 16.66666667%;
-    }
-
-    .offset-xl-3 {
-        margin-left: 25%;
-    }
-
-    .offset-xl-4 {
-        margin-left: 33.33333333%;
-    }
-
-    .offset-xl-5 {
-        margin-left: 41.66666667%;
-    }
-
-    .offset-xl-6 {
-        margin-left: 50%;
-    }
-
-    .offset-xl-7 {
-        margin-left: 58.33333333%;
-    }
-
-    .offset-xl-8 {
-        margin-left: 66.66666667%;
-    }
-
-    .offset-xl-9 {
-        margin-left: 75%;
-    }
-
-    .offset-xl-10 {
-        margin-left: 83.33333333%;
-    }
-
-    .offset-xl-11 {
-        margin-left: 91.66666667%;
-    }
-    }
 
     .text-justify {
     text-align: justify !important;
@@ -1739,7 +354,541 @@
 </style>
 <body>
     @php
+    
+    function promedio($elements)
+    {
+        $acum = 0;
+        $cont = 0;
+        foreach ($elements as $key) {
+            if($key != '') 
+            {
+                $acum += $key;
+                $cont += 1;
+            } 
+        }
+        
+        $prom = ($acum != 0) ? ROUND($acum/$cont): '';
+        return $prom;
+    }
         $Anio = date("Y");
+        //aritmetica
+            $b1[1][1] = isset($notasb1[1][1]) ? $notasb1[1][1] : "";
+            $b1[1][2] = isset($notasb1[1][2]) ? $notasb1[1][2] : "";
+            $b1[1][3] = isset($notasb1[1][3]) ? $notasb1[1][3] : "";
+            $b1[1][4] = isset($notasb1[1][4]) ? $notasb1[1][4] : "";
+            
+            $aritmetica1 = promedio(array($b1[1][1],$b1[1][2],$b1[1][3],$b1[1][4]));
+            $b2[1][1] = isset($notasb2[1][1]) ? $notasb2[1][1] : "";
+            $b2[1][2] = isset($notasb2[1][2]) ? $notasb2[1][2] : "";
+            $b2[1][3] = isset($notasb2[1][3]) ? $notasb2[1][3] : "";
+            $b2[1][4] = isset($notasb2[1][4]) ? $notasb2[1][4] : "";
+            $aritmetica2 = promedio(array($b2[1][1],$b2[1][2],$b2[1][3],$b2[1][4]));
+
+            $b3[1][1] = isset($notasb3[1][1]) ? $notasb3[1][1] : "";
+            $b3[1][2] = isset($notasb3[1][2]) ? $notasb3[1][2] : "";
+            $b3[1][3] = isset($notasb3[1][3]) ? $notasb3[1][3] : "";
+            $b3[1][4] = isset($notasb3[1][4]) ? $notasb3[1][4] : "";
+            $aritmetica3 = promedio(array($b3[1][1],$b3[1][2],$b3[1][3],$b3[1][4]));
+
+            $b4[1][1] = isset($notasb4[1][1]) ? $notasb4[1][1] : "";
+            $b4[1][2] = isset($notasb4[1][2]) ? $notasb4[1][2] : "";
+            $b4[1][3] = isset($notasb4[1][3]) ? $notasb4[1][3] : "";
+            $b4[1][4] = isset($notasb4[1][4]) ? $notasb4[1][4] : "";
+            $aritmetica4 = promedio(array($b4[1][1],$b4[1][2],$b4[1][3],$b4[1][4]));
+            $aritmeticaProm = promedio(array($aritmetica1,$aritmetica2,$aritmetica3,$aritmetica4));
+        //algebra
+            $b1[2][1] = isset($notasb1[2][1]) ? $notasb1[2][1] : "";
+            $b1[2][2] = isset($notasb1[2][2]) ? $notasb1[2][2] : "";
+            $b1[2][3] = isset($notasb1[2][3]) ? $notasb1[2][3] : "";
+            $b1[2][4] = isset($notasb1[2][4]) ? $notasb1[2][4] : "";
+            $algebra1 = promedio(array($b1[2][1],$b1[2][2],$b1[2][3],$b1[2][4]));
+
+            $b2[2][1] = isset($notasb2[2][1]) ? $notasb2[2][1] : "";
+            $b2[2][2] = isset($notasb2[2][2]) ? $notasb2[2][2] : "";
+            $b2[2][3] = isset($notasb2[2][3]) ? $notasb2[2][3] : "";
+            $b2[2][4] = isset($notasb2[2][4]) ? $notasb2[2][4] : "";
+            $algebra2 = promedio(array($b2[2][1],$b2[2][2],$b2[2][3],$b2[2][4]));
+
+            $b3[2][1] = isset($notasb3[2][1]) ? $notasb3[2][1] : "";
+            $b3[2][2] = isset($notasb3[2][2]) ? $notasb3[2][2] : "";
+            $b3[2][3] = isset($notasb3[2][3]) ? $notasb3[2][3] : "";
+            $b3[2][4] = isset($notasb3[2][4]) ? $notasb3[2][4] : "";
+            $algebra3 = promedio(array($b3[2][1],$b3[2][2],$b3[2][3],$b3[2][4]));
+      
+            $b4[2][1] = isset($notasb4[2][1]) ? $notasb4[2][1] : "";
+            $b4[2][2] = isset($notasb4[2][2]) ? $notasb4[2][2] : "";
+            $b4[2][3] = isset($notasb4[2][3]) ? $notasb4[2][3] : "";
+            $b4[2][4] = isset($notasb4[2][4]) ? $notasb4[2][4] : "";
+            $algebra4 = promedio(array($b4[2][1],$b4[2][2],$b4[2][3],$b4[2][4]));
+            $algebraProm = promedio(array($algebra1,$algebra2,$algebra3,$algebra4));
+        //geometria
+            $b1[3][1] = isset($notasb1[3][1]) ? $notasb1[3][1] : "";
+            $b1[3][2] = isset($notasb1[3][2]) ? $notasb1[3][2] : "";
+            $b1[3][3] = isset($notasb1[3][3]) ? $notasb1[3][3] : "";
+            $b1[3][4] = isset($notasb1[3][4]) ? $notasb1[3][4] : "";
+            $geometria1 = promedio(array($b1[3][1],$b1[3][2],$b1[3][3],$b1[3][4])); 
+            
+            $b2[3][1] = isset($notasb2[3][1]) ? $notasb2[3][1] : "";
+            $b2[3][2] = isset($notasb2[3][2]) ? $notasb2[3][2] : "";
+            $b2[3][3] = isset($notasb2[3][3]) ? $notasb2[3][3] : "";
+            $b2[3][4] = isset($notasb2[3][4]) ? $notasb2[3][4] : "";
+            $geometria2 = promedio(array($b2[3][1],$b2[3][2],$b2[3][3],$b2[3][4])); 
+
+            $b3[3][1] = isset($notasb3[3][1]) ? $notasb3[3][1] : "";
+            $b3[3][2] = isset($notasb3[3][2]) ? $notasb3[3][2] : "";
+            $b3[3][3] = isset($notasb3[3][3]) ? $notasb3[3][3] : "";
+            $b3[3][4] = isset($notasb3[3][4]) ? $notasb3[3][4] : "";
+            $geometria3 = promedio(array($b3[3][1],$b3[3][2],$b3[3][3],$b3[3][4])); 
+
+            $b4[3][1] = isset($notasb4[3][1]) ? $notasb4[3][1] : "";
+            $b4[3][2] = isset($notasb4[3][2]) ? $notasb4[3][2] : "";
+            $b4[3][3] = isset($notasb4[3][3]) ? $notasb4[3][3] : "";
+            $b4[3][4] = isset($notasb4[3][4]) ? $notasb4[3][4] : "";
+            $geometria4 = promedio(array($b4[3][1],$b4[3][2],$b4[3][3],$b4[3][4])); 
+            $geometriaProm = promedio(array($geometria1,$geometria2,$geometria3,$geometria4));
+        //trigonometria
+            $b1[4][1] = isset($notasb1[4][1]) ? $notasb1[4][1] : "";
+            $b1[4][2] = isset($notasb1[4][2]) ? $notasb1[4][2] : "";
+            $b1[4][3] = isset($notasb1[4][3]) ? $notasb1[4][3] : "";
+            $b1[4][4] = isset($notasb1[4][4]) ? $notasb1[4][4] : "";
+            $trigonometria1 = promedio(array($b1[4][1],$b1[4][2],$b1[4][3],$b1[4][4])); 
+
+            $b2[4][1] = isset($notasb2[4][1]) ? $notasb2[4][1] : "";
+            $b2[4][2] = isset($notasb2[4][2]) ? $notasb2[4][2] : "";
+            $b2[4][3] = isset($notasb2[4][3]) ? $notasb2[4][3] : "";
+            $b2[4][4] = isset($notasb2[4][4]) ? $notasb2[4][4] : "";
+            $trigonometria2 = promedio(array($b2[4][1],$b2[4][2],$b2[4][3],$b2[4][4])); 
+
+            $b3[4][1] = isset($notasb3[4][1]) ? $notasb3[4][1] : "";
+            $b3[4][2] = isset($notasb3[4][2]) ? $notasb3[4][2] : "";
+            $b3[4][3] = isset($notasb3[4][3]) ? $notasb3[4][3] : "";
+            $b3[4][4] = isset($notasb3[4][4]) ? $notasb3[4][4] : "";
+            $trigonometria3 = promedio(array($b3[4][1],$b3[4][2],$b3[4][3],$b3[4][4])); 
+
+            $b4[4][1] = isset($notasb4[4][1]) ? $notasb4[4][1] : "";
+            $b4[4][2] = isset($notasb4[4][2]) ? $notasb4[4][2] : "";
+            $b4[4][3] = isset($notasb4[4][3]) ? $notasb4[4][3] : "";
+            $b4[4][4] = isset($notasb4[4][4]) ? $notasb1[4][4] : "";
+            $trigonometria4 = promedio(array($b4[4][1],$b4[4][2],$b4[4][3],$b4[4][4])); 
+            $trigonometriaProm = promedio(array($trigonometria1,$trigonometria2,$trigonometria3,$trigonometria4)); 
+        //rm
+            $b1[5][1] = isset($notasb1[5][1]) ? $notasb1[5][1] : "";
+            $b1[5][2] = isset($notasb1[5][2]) ? $notasb1[5][2] : "";
+            $b1[5][3] = isset($notasb1[5][3]) ? $notasb1[5][3] : "";
+            $b1[5][4] = isset($notasb1[5][4]) ? $notasb1[5][4] : ""; 
+            $rm1 = promedio(array($b1[5][1],$b1[5][2],$b1[5][3],$b1[5][4])); 
+
+            $b2[5][1] = isset($notasb2[5][1]) ? $notasb2[5][1] : "";
+            $b2[5][2] = isset($notasb2[5][2]) ? $notasb2[5][2] : "";
+            $b2[5][3] = isset($notasb2[5][3]) ? $notasb2[5][3] : "";
+            $b2[5][4] = isset($notasb2[5][4]) ? $notasb2[5][4] : "";
+            $rm2 = promedio(array($b2[5][1],$b2[5][2],$b2[5][3],$b2[5][4])); 
+
+            $b3[5][1] = isset($notasb3[5][1]) ? $notasb3[5][1] : "";
+            $b3[5][2] = isset($notasb3[5][2]) ? $notasb3[5][2] : "";
+            $b3[5][3] = isset($notasb3[5][3]) ? $notasb3[5][3] : "";
+            $b3[5][4] = isset($notasb3[5][4]) ? $notasb3[5][4] : "";
+            $rm3 = promedio(array($b3[5][1],$b3[5][2],$b3[5][3],$b3[5][4])); 
+            
+            $b4[5][1] = isset($notasb4[5][1]) ? $notasb4[5][1] : "";
+            $b4[5][2] = isset($notasb4[5][2]) ? $notasb4[5][2] : "";
+            $b4[5][3] = isset($notasb4[5][3]) ? $notasb4[5][3] : "";
+            $b4[5][4] = isset($notasb4[5][4]) ? $notasb4[5][4] : "";
+            $rm4 = promedio(array($b4[5][1],$b4[5][2],$b4[5][3],$b4[5][4])); 
+            $rmProm = promedio(array($rm1,$rm2,$rm3,$rm4)); 
+            $mateProm = promedio(array($aritmeticaProm,$algebraProm,$geometriaProm,$trigonometriaProm,$rmProm));
+        //rv
+            $b1[6][1] = isset($notasb1[6][1]) ? $notasb1[6][1] : "";
+            $b1[6][2] = isset($notasb1[6][2]) ? $notasb1[6][2] : "";
+            $b1[6][3] = isset($notasb1[6][3]) ? $notasb1[6][3] : "";
+            $b1[6][4] = isset($notasb1[6][4]) ? $notasb1[6][4] : "";
+            $rv1 = promedio(array($b1[6][1],$b1[6][2],$b1[6][3],$b1[6][4])); 
+
+            $b2[6][1] = isset($notasb2[6][1]) ? $notasb2[6][1] : "";
+            $b2[6][2] = isset($notasb2[6][2]) ? $notasb2[6][2] : "";
+            $b2[6][3] = isset($notasb2[6][3]) ? $notasb2[6][3] : "";
+            $b2[6][4] = isset($notasb2[6][4]) ? $notasb2[6][4] : "";
+            $rv2 = promedio(array($b2[6][1],$b2[6][2],$b2[6][3],$b2[6][4])); 
+
+            $b3[6][1] = isset($notasb3[6][1]) ? $notasb3[6][1] : "";
+            $b3[6][2] = isset($notasb3[6][2]) ? $notasb3[6][2] : "";
+            $b3[6][3] = isset($notasb3[6][3]) ? $notasb3[6][3] : "";
+            $b3[6][4] = isset($notasb3[6][4]) ? $notasb3[6][4] : "";
+            $rv3 = promedio(array($b3[6][1],$b3[6][2],$b3[6][3],$b3[6][4])); 
+
+            $b4[6][1] = isset($notasb4[6][1]) ? $notasb4[6][1] : "";
+            $b4[6][2] = isset($notasb4[6][2]) ? $notasb4[6][2] : "";
+            $b4[6][3] = isset($notasb4[6][3]) ? $notasb4[6][3] : "";
+            $b4[6][4] = isset($notasb4[6][4]) ? $notasb4[6][4] : "";
+            $rv4 = promedio(array($b4[6][1],$b4[6][2],$b4[6][3],$b4[6][4])); 
+            $rvProm = promedio(array($rv1,$rv2,$rv3,$rv4)); 
+        //planlector
+            $b1[7][1] = isset($notasb1[7][1]) ? $notasb1[7][1] : "";
+            $b1[7][2] = isset($notasb1[7][2]) ? $notasb1[7][2] : "";
+            $b1[7][3] = isset($notasb1[7][3]) ? $notasb1[7][3] : "";
+            $b1[7][4] = isset($notasb1[7][4]) ? $notasb1[7][4] : "";
+            $pl1 = promedio(array($b1[7][1],$b1[7][2],$b1[7][3],$b1[7][4])); 
+
+            $b2[7][1] = isset($notasb2[7][1]) ? $notasb2[7][1] : "";
+            $b2[7][2] = isset($notasb2[7][2]) ? $notasb2[7][2] : "";
+            $b2[7][3] = isset($notasb2[7][3]) ? $notasb2[7][3] : "";
+            $b2[7][4] = isset($notasb2[7][4]) ? $notasb2[7][4] : "";
+            $pl2 = promedio(array($b2[7][1],$b2[7][2],$b2[7][3],$b2[7][4])); 
+
+            $b3[7][1] = isset($notasb3[7][1]) ? $notasb3[7][1] : "";
+            $b3[7][2] = isset($notasb3[7][2]) ? $notasb3[7][2] : "";
+            $b3[7][3] = isset($notasb3[7][3]) ? $notasb3[7][3] : "";
+            $b3[7][4] = isset($notasb3[7][4]) ? $notasb3[7][4] : "";
+            $pl3 = promedio(array($b3[7][1],$b3[7][2],$b3[7][3],$b3[7][4])); 
+
+            $b4[7][1] = isset($notasb4[7][1]) ? $notasb4[7][1] : "";
+            $b4[7][2] = isset($notasb4[7][2]) ? $notasb4[7][2] : "";
+            $b4[7][3] = isset($notasb4[7][3]) ? $notasb4[7][3] : "";
+            $b4[7][4] = isset($notasb4[7][4]) ? $notasb4[7][4] : "";
+            $pl4 = promedio(array($b4[7][1],$b4[7][2],$b4[7][3],$b4[7][4])); 
+            $plProm = promedio(array($pl1,$pl2,$pl3,$pl4)); 
+        //lenguaje
+            $b1[8][1] = isset($notasb1[8][1]) ? $notasb1[8][1] : "";
+            $b1[8][2] = isset($notasb1[8][2]) ? $notasb1[8][2] : "";
+            $b1[8][3] = isset($notasb1[8][3]) ? $notasb1[8][3] : "";
+            $b1[8][4] = isset($notasb1[8][4]) ? $notasb1[8][4] : "";
+            $lenguaje1 = promedio(array($b1[8][1],$b1[8][2],$b1[8][3],$b1[8][4])); 
+
+            $b2[8][1] = isset($notasb2[8][1]) ? $notasb2[8][1] : "";
+            $b2[8][2] = isset($notasb2[8][2]) ? $notasb2[8][2] : "";
+            $b2[8][3] = isset($notasb2[8][3]) ? $notasb2[8][3] : "";
+            $b2[8][4] = isset($notasb2[8][4]) ? $notasb2[8][4] : "";
+            $lenguaje2 = promedio(array($b2[8][1],$b2[8][2],$b2[8][3],$b2[8][4])); 
+
+            $b3[8][1] = isset($notasb3[8][1]) ? $notasb3[8][1] : "";
+            $b3[8][2] = isset($notasb3[8][2]) ? $notasb3[8][2] : "";
+            $b3[8][3] = isset($notasb3[8][3]) ? $notasb3[8][3] : "";
+            $b3[8][4] = isset($notasb3[8][4]) ? $notasb3[8][4] : "";
+            $lenguaje3 = promedio(array($b3[8][1],$b3[8][2],$b3[8][3],$b3[8][4])); 
+
+            $b4[8][1] = isset($notasb4[8][1]) ? $notasb4[8][1] : "";
+            $b4[8][2] = isset($notasb4[8][2]) ? $notasb4[8][2] : "";
+            $b4[8][3] = isset($notasb4[8][3]) ? $notasb4[8][3] : "";
+            $b4[8][4] = isset($notasb4[8][4]) ? $notasb4[8][4] : "";
+            $lenguaje4 = promedio(array($b4[8][1],$b4[8][2],$b4[8][3],$b4[8][4])); 
+            $lenguajeProm = promedio(array($lenguaje1,$lenguaje2,$lenguaje3,$lenguaje4)); 
+        //literatura
+            $b1[9][1] = isset($notasb1[9][1]) ? $notasb1[9][1] : "";
+            $b1[9][2] = isset($notasb1[9][2]) ? $notasb1[9][2] : "";
+            $b1[9][3] = isset($notasb1[9][3]) ? $notasb1[9][3] : "";
+            $b1[9][4] = isset($notasb1[9][4]) ? $notasb1[9][4] : "";
+            $literatura1 = promedio(array($b1[9][1],$b1[9][2],$b1[9][3],$b1[9][4])); 
+
+            $b2[9][1] = isset($notasb2[9][1]) ? $notasb2[9][1] : "";
+            $b2[9][2] = isset($notasb2[9][2]) ? $notasb2[9][2] : "";
+            $b2[9][3] = isset($notasb2[9][3]) ? $notasb2[9][3] : "";
+            $b2[9][4] = isset($notasb2[9][4]) ? $notasb2[9][4] : "";
+            $literatura2 = promedio(array($b2[9][1],$b2[9][2],$b2[9][3],$b2[9][4])); 
+
+            $b3[9][1] = isset($notasb3[9][1]) ? $notasb3[9][1] : "";
+            $b3[9][2] = isset($notasb3[9][2]) ? $notasb3[9][2] : "";
+            $b3[9][3] = isset($notasb3[9][3]) ? $notasb3[9][3] : "";
+            $b3[9][4] = isset($notasb3[9][4]) ? $notasb3[9][4] : "";
+            $literatura3 = promedio(array($b3[9][1],$b3[9][2],$b3[9][3],$b3[9][4])); 
+
+            $b4[9][1] = isset($notasb4[9][1]) ? $notasb4[9][1] : "";
+            $b4[9][2] = isset($notasb4[9][2]) ? $notasb4[9][2] : "";
+            $b4[9][3] = isset($notasb4[9][3]) ? $notasb4[9][3] : "";
+            $b4[9][4] = isset($notasb4[9][4]) ? $notasb4[9][4] : "";
+            $literatura4 = promedio(array($b4[9][1],$b4[9][2],$b4[9][3],$b4[9][4])); 
+            $literaturaProm = promedio(array($literatura1,$literatura2,$literatura3,$literatura4)); 
+            $comunicacionProm = promedio(array($rvProm,$literaturaProm,$lenguajeProm,$plProm));
+        //ingles
+            $b1[10][1] = isset($notasb1[10][1]) ? $notasb1[10][1] : "";
+            $b1[10][2] = isset($notasb1[10][2]) ? $notasb1[10][2] : "";
+            $b1[10][3] = isset($notasb1[10][3]) ? $notasb1[10][3] : "";
+            $b1[10][4] = isset($notasb1[10][4]) ? $notasb1[10][4] : "";
+            $ingles1   = promedio(array($b1[10][1],$b1[10][2],$b1[10][3],$b1[10][4])); 
+
+            $b2[10][1] = isset($notasb2[10][1]) ? $notasb2[10][1] : "";
+            $b2[10][2] = isset($notasb2[10][2]) ? $notasb2[10][2] : "";
+            $b2[10][3] = isset($notasb2[10][3]) ? $notasb2[10][3] : "";
+            $b2[10][4] = isset($notasb2[10][4]) ? $notasb2[10][4] : "";
+            $ingles2   = promedio(array($b2[10][1],$b2[10][2],$b2[10][3],$b2[10][4])); 
+
+            $b3[10][1] = isset($notasb3[10][1]) ? $notasb3[10][1] : "";
+            $b3[10][2] = isset($notasb3[10][2]) ? $notasb3[10][2] : "";
+            $b3[10][3] = isset($notasb3[10][3]) ? $notasb3[10][3] : "";
+            $b3[10][4] = isset($notasb3[10][4]) ? $notasb3[10][4] : "";
+            $ingles3   = promedio(array($b3[10][1],$b3[10][2],$b3[10][3],$b3[10][4])); 
+
+            $b4[10][1] = isset($notasb4[10][1]) ? $notasb4[10][1] : "";
+            $b4[10][2] = isset($notasb4[10][2]) ? $notasb4[10][2] : "";
+            $b4[10][3] = isset($notasb4[10][3]) ? $notasb4[10][3] : "";
+            $b4[10][4] = isset($notasb4[10][4]) ? $notasb4[10][4] : "";
+            $ingles4   = promedio(array($b4[10][1],$b4[10][2],$b4[10][3],$b4[10][4])); 
+            $inglesProm   = promedio(array($ingles1,$ingles2,$ingles3,$ingles4)); 
+        //arte
+            $b1[11][1] = isset($notasb1[11][1]) ? $notasb1[11][1] : "";
+            $b1[11][2] = isset($notasb1[11][2]) ? $notasb1[11][2] : "";
+            $arte1     = promedio(array($b1[11][1],$b1[11][2])); 
+
+            $b2[11][1] = isset($notasb2[11][1]) ? $notasb2[11][1] : "";
+            $b2[11][2] = isset($notasb2[11][2]) ? $notasb2[11][2] : "";
+            $arte2     = promedio(array($b2[11][1],$b2[11][2])); 
+
+            $b3[11][1] = isset($notasb3[11][1]) ? $notasb3[11][1] : "";
+            $b3[11][2] = isset($notasb3[11][2]) ? $notasb3[11][2] : "";
+            $arte3     = promedio(array($b3[11][1],$b3[11][2])); 
+
+            $b4[11][1] = isset($notasb4[11][1]) ? $notasb4[11][1] : "";
+            $b4[11][2] = isset($notasb4[11][2]) ? $notasb4[11][2] : "";
+            $arte4     = promedio(array($b4[11][1],$b4[11][2])); 
+            $arteProm  = promedio(array($arte1,$arte2,$arte3,$arte4)); 
+        //historia peru
+            $b1[12][1] = isset($notasb1[12][1]) ? $notasb1[12][1] : "";
+            $b1[12][2] = isset($notasb1[12][2]) ? $notasb1[12][2] : "";
+            $b1[12][3] = isset($notasb1[12][3]) ? $notasb1[12][3] : "";
+            $b1[12][4] = isset($notasb1[12][4]) ? $notasb1[12][4] : "";
+            $historiap1  = promedio(array($b1[12][1],$b1[12][2],$b1[12][3],$b1[12][4])); 
+
+            $b2[12][1] = isset($notasb2[12][1]) ? $notasb2[12][1] : "";
+            $b2[12][2] = isset($notasb2[12][2]) ? $notasb2[12][2] : "";
+            $b2[12][3] = isset($notasb2[12][3]) ? $notasb2[12][3] : "";
+            $b2[12][4] = isset($notasb2[12][4]) ? $notasb2[12][4] : "";
+            $historiap2  = promedio(array($b2[12][1],$b2[12][2],$b2[12][3],$b2[12][4])); 
+
+            $b3[12][1] = isset($notasb3[12][1]) ? $notasb3[12][1] : "";
+            $b3[12][2] = isset($notasb3[12][2]) ? $notasb3[12][2] : "";
+            $b3[12][3] = isset($notasb3[12][3]) ? $notasb3[12][3] : "";
+            $b3[12][4] = isset($notasb3[12][4]) ? $notasb3[12][4] : "";
+            $historiap3  = promedio(array($b3[12][1],$b3[12][2],$b3[12][3],$b3[12][4])); 
+
+            $b4[12][1] = isset($notasb4[12][1]) ? $notasb4[12][1] : "";
+            $b4[12][2] = isset($notasb4[12][2]) ? $notasb4[12][2] : "";
+            $b4[12][3] = isset($notasb4[12][3]) ? $notasb4[12][3] : "";
+            $b4[12][4] = isset($notasb4[12][4]) ? $notasb4[12][4] : "";
+            $historiap4  = promedio(array($b4[12][1],$b4[12][2],$b4[12][3],$b4[12][4])); 
+            $historiapProm  = promedio(array($historiap1,$historiap2,$historiap3,$historiap4)); 
+        //historia universal
+            $b1[13][1] = isset($notasb1[13][1]) ? $notasb1[13][1] : "";
+            $b1[13][2] = isset($notasb1[13][2]) ? $notasb1[13][2] : "";
+            $b1[13][3] = isset($notasb1[13][3]) ? $notasb1[13][3] : "";
+            $b1[13][4] = isset($notasb1[13][4]) ? $notasb1[13][4] : "";
+            $historiau1  = promedio(array($b1[13][1],$b1[13][2],$b1[13][3],$b1[13][4])); 
+
+            $b2[13][1] = isset($notasb2[13][1]) ? $notasb2[13][1] : "";
+            $b2[13][2] = isset($notasb2[13][2]) ? $notasb2[13][2] : "";
+            $b2[13][3] = isset($notasb2[13][3]) ? $notasb2[13][3] : "";
+            $b2[13][4] = isset($notasb2[13][4]) ? $notasb2[13][4] : "";
+            $historiau2  = promedio(array($b2[13][1],$b2[13][2],$b2[13][3],$b2[13][4])); 
+
+            $b3[13][1] = isset($notasb3[13][1]) ? $notasb3[13][1] : "";
+            $b3[13][2] = isset($notasb3[13][2]) ? $notasb3[13][2] : "";
+            $b3[13][3] = isset($notasb3[13][3]) ? $notasb3[13][3] : "";
+            $b3[13][4] = isset($notasb3[13][4]) ? $notasb3[13][4] : "";
+            $historiau3  = promedio(array($b3[13][1],$b3[13][2],$b3[13][3],$b3[13][4])); 
+
+            $b4[13][1] = isset($notasb4[13][1]) ? $notasb4[13][1] : "";
+            $b4[13][2] = isset($notasb4[13][2]) ? $notasb4[13][2] : "";
+            $b4[13][3] = isset($notasb4[13][3]) ? $notasb4[13][3] : "";
+            $b4[13][4] = isset($notasb4[13][4]) ? $notasb4[13][4] : "";
+            $historiau4  = promedio(array($b4[13][1],$b4[13][2],$b4[13][3],$b4[13][4])); 
+            $historiauProm  = promedio(array($historiau1,$historiau2,$historiau3,$historiau4)); 
+        //geografia
+            $b1[14][1] = isset($notasb1[14][1]) ? $notasb1[14][1] : "";
+            $b1[14][2] = isset($notasb1[14][2]) ? $notasb1[14][2] : "";
+            $b1[14][3] = isset($notasb1[14][3]) ? $notasb1[14][3] : "";
+            $b1[14][4] = isset($notasb1[14][4]) ? $notasb1[14][4] : "";
+            $geografia1  = promedio(array($b1[14][1],$b1[14][2],$b1[14][3],$b1[14][4])); 
+
+            $b2[14][1] = isset($notasb2[14][1]) ? $notasb2[14][1] : "";
+            $b2[14][2] = isset($notasb2[14][2]) ? $notasb2[14][2] : "";
+            $b2[14][3] = isset($notasb2[14][3]) ? $notasb2[14][3] : "";
+            $b2[14][4] = isset($notasb2[14][4]) ? $notasb2[14][4] : "";
+            $geografia2  = promedio(array($b2[14][1],$b2[14][2],$b2[14][3],$b2[14][4])); 
+
+            $b3[14][1] = isset($notasb3[14][1]) ? $notasb3[14][1] : "";
+            $b3[14][2] = isset($notasb3[14][2]) ? $notasb3[14][2] : "";
+            $b3[14][3] = isset($notasb3[14][3]) ? $notasb3[14][3] : "";
+            $b3[14][4] = isset($notasb3[14][4]) ? $notasb3[14][4] : "";
+            $geografia3  = promedio(array($b3[14][1],$b3[14][2],$b3[14][3],$b3[14][4])); 
+
+            $b4[14][1] = isset($notasb4[14][1]) ? $notasb4[14][1] : "";
+            $b4[14][2] = isset($notasb4[14][2]) ? $notasb4[14][2] : "";
+            $b4[14][3] = isset($notasb4[14][3]) ? $notasb4[14][3] : "";
+            $b4[14][4] = isset($notasb4[14][4]) ? $notasb4[14][4] : "";
+            $geografia4  = promedio(array($b4[14][1],$b4[14][2],$b4[14][3],$b4[14][4])); 
+            $geografiaProm  = promedio(array($geografia1,$geografia2,$geografia3,$geografia4)); 
+            $socialesProm = promedio(array($historiapProm,$historiauProm,$geografiaProm));
+        //civica
+            $b1[15][1] = isset($notasb1[15][1]) ? $notasb1[15][1] : "";
+            $b1[15][2] = isset($notasb1[15][2]) ? $notasb1[15][2] : "";
+            $civica1   = promedio(array($b1[15][1],$b1[15][2])); 
+
+            $b2[15][1] = isset($notasb2[15][1]) ? $notasb2[15][1] : "";
+            $b2[15][2] = isset($notasb2[15][2]) ? $notasb2[15][2] : "";
+            $civica2   = promedio(array($b2[15][1],$b2[15][2])); 
+
+            $b3[15][1] = isset($notasb3[15][1]) ? $notasb3[15][1] : "";
+            $b3[15][2] = isset($notasb3[15][2]) ? $notasb3[15][2] : "";
+            $civica3   = promedio(array($b3[15][1],$b3[15][2])); 
+
+            $b4[15][1] = isset($notasb4[15][1]) ? $notasb4[15][1] : "";
+            $b4[15][2] = isset($notasb4[15][2]) ? $notasb4[15][2] : "";
+            $civica4   = promedio(array($b4[15][1],$b4[15][2])); 
+            $civicaProm   = promedio(array($civica1,$civica2,$civica3,$civica4)); 
+        //pfrh
+            $b1[16][1] = isset($notasb1[16][1]) ? $notasb1[16][1] : "";
+            $b1[16][2] = isset($notasb1[16][2]) ? $notasb1[16][2] : "";
+            $b1[16][3] = isset($notasb1[16][3]) ? $notasb1[16][3] : "";
+            $pfrh1     = promedio(array($b1[16][1],$b1[16][2],$b1[16][3])); 
+
+            $b2[16][1] = isset($notasb2[16][1]) ? $notasb2[16][1] : "";
+            $b2[16][2] = isset($notasb2[16][2]) ? $notasb2[16][2] : "";
+            $b2[16][3] = isset($notasb2[16][3]) ? $notasb2[16][3] : "";
+            $pfrh2     = promedio(array($b2[16][1],$b2[16][2],$b2[16][3])); 
+
+            $b3[16][1] = isset($notasb3[16][1]) ? $notasb3[16][1] : "";
+            $b3[16][2] = isset($notasb3[16][2]) ? $notasb3[16][2] : "";
+            $b3[16][3] = isset($notasb3[16][3]) ? $notasb3[16][3] : "";
+            $pfrh3     = promedio(array($b3[16][1],$b3[16][2],$b3[16][3])); 
+
+            $b4[16][1] = isset($notasb4[16][1]) ? $notasb4[16][1] : "";
+            $b4[16][2] = isset($notasb4[16][2]) ? $notasb4[16][2] : "";
+            $b4[16][3] = isset($notasb4[16][3]) ? $notasb4[16][3] : "";
+            $pfrh4     = promedio(array($b4[16][1],$b4[16][2],$b4[16][3])); 
+            $pfrhProm  = promedio(array($pfrh1,$pfrh2,$pfrh3,$pfrh4)); 
+        //educ fisica
+            $b1[17][1] = isset($notasb1[17][1]) ? $notasb1[17][1] : "";
+            $b1[17][2] = isset($notasb1[17][2]) ? $notasb1[17][2] : "";
+            $b1[17][3] = isset($notasb1[17][3]) ? $notasb1[17][3] : "";
+            $ef1       = promedio(array($b1[17][1],$b1[17][2],$b1[17][3])); 
+
+            $b2[17][1] = isset($notasb2[17][1]) ? $notasb2[17][1] : "";
+            $b2[17][2] = isset($notasb2[17][2]) ? $notasb2[17][2] : "";
+            $b2[17][3] = isset($notasb2[17][3]) ? $notasb2[17][3] : "";
+            $ef2       = promedio(array($b2[17][1],$b2[17][2],$b2[17][3])); 
+
+            $b3[17][1] = isset($notasb3[17][1]) ? $notasb3[17][1] : "";
+            $b3[17][2] = isset($notasb3[17][2]) ? $notasb3[17][2] : "";
+            $b3[17][3] = isset($notasb3[17][3]) ? $notasb3[17][3] : "";
+            $ef3       = promedio(array($b3[17][1],$b3[17][2],$b3[17][3])); 
+
+            $b4[17][1] = isset($notasb4[17][1]) ? $notasb4[17][1] : "";
+            $b4[17][2] = isset($notasb4[17][2]) ? $notasb4[17][2] : "";
+            $b4[17][3] = isset($notasb4[17][3]) ? $notasb4[17][3] : "";
+            $ef4       = promedio(array($b4[17][1],$b4[17][2],$b4[17][3])); 
+            $efProm    = promedio(array($ef1,$ef2,$ef3,$ef4)); 
+        //educ religiosa
+            $b1[18][1] = isset($notasb1[18][1]) ? $notasb1[18][1] : "";
+            $b1[18][2] = isset($notasb1[18][2]) ? $notasb1[18][2] : "";
+            $er1       = promedio(array($b1[18][1],$b1[18][2])); 
+
+            $b2[18][1] = isset($notasb2[18][1]) ? $notasb2[18][1] : "";
+            $b2[18][2] = isset($notasb2[18][2]) ? $notasb2[18][2] : "";
+            $er2       = promedio(array($b2[18][1],$b2[18][2])); 
+
+            $b3[18][1] = isset($notasb3[18][1]) ? $notasb3[18][1] : "";
+            $b3[18][2] = isset($notasb3[18][2]) ? $notasb3[18][2] : "";
+            $er3       = promedio(array($b3[18][1],$b3[18][2])); 
+
+            $b4[18][1] = isset($notasb4[18][1]) ? $notasb4[18][1] : "";
+            $b4[18][2] = isset($notasb4[18][2]) ? $notasb4[18][2] : "";
+            $er4       = promedio(array($b4[18][1],$b4[18][2])); 
+            $erProm    = promedio(array($er1,$er2,$er3,$er4)); 
+        //fisica
+            $b1[19][1] = isset($notasb1[19][1]) ? $notasb1[19][1] : "";
+            $b1[19][2] = isset($notasb1[19][2]) ? $notasb1[19][2] : "";
+            $b1[19][3] = isset($notasb1[19][3]) ? $notasb1[19][3] : "";
+            $b1[19][4] = isset($notasb1[19][4]) ? $notasb1[19][4] : "";
+            $fisica1   = promedio(array($b1[19][1],$b1[19][2],$b1[19][3],$b1[19][4])); 
+
+            $b2[19][1] = isset($notasb2[19][1]) ? $notasb2[19][1] : "";
+            $b2[19][2] = isset($notasb2[19][2]) ? $notasb2[19][2] : "";
+            $b2[19][3] = isset($notasb2[19][3]) ? $notasb2[19][3] : "";
+            $b2[19][4] = isset($notasb2[19][4]) ? $notasb2[19][4] : "";
+            $fisica2   = promedio(array($b2[19][1],$b2[19][2],$b2[19][3],$b2[19][4])); 
+
+            $b3[19][1] = isset($notasb3[19][1]) ? $notasb3[19][1] : "";
+            $b3[19][2] = isset($notasb3[19][2]) ? $notasb3[19][2] : "";
+            $b3[19][3] = isset($notasb3[19][3]) ? $notasb3[19][3] : "";
+            $b3[19][4] = isset($notasb3[19][4]) ? $notasb3[19][4] : "";
+            $fisica3   = promedio(array($b3[19][1],$b3[19][2],$b3[19][3],$b3[19][4])); 
+
+            $b4[19][1] = isset($notasb4[19][1]) ? $notasb4[19][1] : "";
+            $b4[19][2] = isset($notasb4[19][2]) ? $notasb4[19][2] : "";
+            $b4[19][3] = isset($notasb4[19][3]) ? $notasb4[19][3] : "";
+            $b4[19][4] = isset($notasb4[19][4]) ? $notasb4[19][4] : "";
+            $fisica4   = promedio(array($b4[19][1],$b4[19][2],$b4[19][3],$b4[19][4])); 
+            $fisicaProm   = promedio(array($fisica1,$fisica2,$fisica3,$fisica4)); 
+        //quimica
+            $b1[20][1] = isset($notasb1[20][1]) ? $notasb1[20][1] : "";
+            $b1[20][2] = isset($notasb1[20][2]) ? $notasb1[20][2] : "";
+            $b1[20][3] = isset($notasb1[20][3]) ? $notasb1[20][3] : "";
+            $b1[20][4] = isset($notasb1[20][4]) ? $notasb1[20][4] : "";
+            $quimica1  = promedio(array($b1[20][1],$b1[20][2],$b1[20][3],$b1[20][4])); 
+
+            $b2[20][1] = isset($notasb2[20][1]) ? $notasb2[20][1] : "";
+            $b2[20][2] = isset($notasb2[20][2]) ? $notasb2[20][2] : "";
+            $b2[20][3] = isset($notasb2[20][3]) ? $notasb2[20][3] : "";
+            $b2[20][4] = isset($notasb2[20][4]) ? $notasb2[20][4] : "";
+            $quimica2  = promedio(array($b2[20][1],$b2[20][2],$b2[20][3],$b2[20][4])); 
+
+            $b3[20][1] = isset($notasb3[20][1]) ? $notasb3[20][1] : "";
+            $b3[20][2] = isset($notasb3[20][2]) ? $notasb3[20][2] : "";
+            $b3[20][3] = isset($notasb3[20][3]) ? $notasb3[20][3] : "";
+            $b3[20][4] = isset($notasb3[20][4]) ? $notasb3[20][4] : "";
+            $quimica3  = promedio(array($b3[20][1],$b3[20][2],$b3[20][3],$b3[20][4])); 
+
+            $b4[20][1] = isset($notasb4[20][1]) ? $notasb4[20][1] : "";
+            $b4[20][2] = isset($notasb4[20][2]) ? $notasb4[20][2] : "";
+            $b4[20][3] = isset($notasb4[20][3]) ? $notasb4[20][3] : "";
+            $b4[20][4] = isset($notasb4[20][4]) ? $notasb4[20][4] : "";
+            $quimica4  = promedio(array($b4[20][1],$b4[20][2],$b4[20][3],$b4[20][4])); 
+            $quimicaProm  = promedio(array($b1[20][1],$b1[20][2],$b1[20][3],$b1[20][4])); 
+        //biologia
+            $b1[21][1] = isset($notasb1[21][1]) ? $notasb1[21][1] : "";
+            $b1[21][2] = isset($notasb1[21][2]) ? $notasb1[21][2] : "";
+            $b1[21][3] = isset($notasb1[21][3]) ? $notasb1[21][3] : "";
+            $b1[21][4] = isset($notasb1[21][4]) ? $notasb1[21][4] : "";
+            $biologia1 = promedio(array($b1[21][1],$b1[21][2],$b1[21][3],$b1[21][4])); 
+
+            $b2[21][1] = isset($notasb2[21][1]) ? $notasb2[21][1] : "";
+            $b2[21][2] = isset($notasb2[21][2]) ? $notasb2[21][2] : "";
+            $b2[21][3] = isset($notasb2[21][3]) ? $notasb2[21][3] : "";
+            $b2[21][4] = isset($notasb2[21][4]) ? $notasb2[21][4] : "";
+            $biologia2 = promedio(array($b2[21][1],$b2[21][2],$b2[21][3],$b2[21][4])); 
+
+            $b3[21][1] = isset($notasb3[21][1]) ? $notasb3[21][1] : "";
+            $b3[21][2] = isset($notasb3[21][2]) ? $notasb3[21][2] : "";
+            $b3[21][3] = isset($notasb3[21][3]) ? $notasb3[21][3] : "";
+            $b3[21][4] = isset($notasb3[21][4]) ? $notasb3[21][4] : "";
+            $biologia3 = promedio(array($b3[21][1],$b3[21][2],$b3[21][3],$b3[21][4])); 
+
+            $b4[21][1] = isset($notasb4[21][1]) ? $notasb4[21][1] : "";
+            $b4[21][2] = isset($notasb4[21][2]) ? $notasb4[21][2] : "";
+            $b4[21][3] = isset($notasb4[21][3]) ? $notasb4[21][3] : "";
+            $b4[21][4] = isset($notasb4[21][4]) ? $notasb4[21][4] : "";
+            $biologia4 = promedio(array($b4[21][1],$b4[21][2],$b4[21][3],$b4[21][4])); 
+            $biologiaProm = promedio(array($biologia1,$biologia2,$biologia3,$biologia4)); 
+            $cienciasProm = promedio(array($biologiaProm,$fisicaProm,$quimicaProm)); 
+        //educ para el trabajo
+            $b1[22][1] = isset($notasb1[22][1]) ? $notasb1[22][1] : "";
+            $b1[22][2] = isset($notasb1[22][2]) ? $notasb1[22][2] : "";
+            $b1[22][3] = isset($notasb1[22][3]) ? $notasb1[22][3] : "";
+            $ept1      = promedio(array($b1[22][1],$b1[22][2],$b1[22][3])); 
+
+            $b2[22][1] = isset($notasb2[22][1]) ? $notasb2[22][1] : "";
+            $b2[22][2] = isset($notasb2[22][2]) ? $notasb2[22][2] : "";
+            $b2[22][3] = isset($notasb2[22][3]) ? $notasb2[22][3] : "";
+            $ept2      = promedio(array($b2[22][1],$b2[22][2],$b2[22][3])); 
+
+            $b3[22][1] = isset($notasb3[22][1]) ? $notasb3[22][1] : "";
+            $b3[22][2] = isset($notasb3[22][2]) ? $notasb3[22][2] : "";
+            $b3[22][3] = isset($notasb3[22][3]) ? $notasb3[22][3] : "";
+            $ept3      = promedio(array($b3[22][1],$b3[22][2],$b3[22][3])); 
+
+            $b4[22][1] = isset($notasb4[22][1]) ? $notasb4[22][1] : "";
+            $b4[22][2] = isset($notasb4[22][2]) ? $notasb4[22][2] : "";
+            $b4[22][3] = isset($notasb4[22][3]) ? $notasb4[22][3] : "";
+            $ept4      = promedio(array($b4[22][1],$b4[22][2],$b4[22][3])); 
+            $eptProm   = promedio(array($ept1,$ept2,$ept3,$ept4)); 
     @endphp
     <div class="container-fluid">
         <div class="row">
@@ -1830,778 +979,778 @@
                     <td rowspan="25" class="fondo" width="50" style="font-size: 10px"><p class="verticalText"><b>MATEMÁTICAS</b></p></td>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>ARITMÉTICA</b></p></td>
                     <td class="text-left">Piensa matemáticamente situaciones de cantidad.</td>
-                    <td>{{"12"}}</td>1
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5" style="font-size: 16px">12</td>
-                    <td rowspan="25" style="font-size: 16px">12</td>
+                    <td>{{$b1[1][1]}}</td>1
+                    <td>{{$b2[1][1]}}</td>
+                    <td>{{$b3[1][1]}}</td>
+                    <td>{{$b4[1][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$aritmeticaProm}}</td>
+                    <td rowspan="25" style="font-size: 16px">{{$mateProm}}</td>
                     <td rowspan="25" style="font-size: 16px"></td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de regularidad.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[1][2]}}</td>
+                    <td>{{$b2[1][2]}}</td>
+                    <td>{{$b3[1][2]}}</td>
+                    <td>{{$b4[1][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de forma y mov.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[1][3]}}</td>
+                    <td>{{$b2[1][3]}}</td>
+                    <td>{{$b3[1][3]}}</td>
+                    <td>{{$b4[1][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de gestión.</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[1][4]}}</td>
+                    <td>{{$b2[1][4]}}</td>
+                    <td>{{$b3[1][4]}}</td>
+                    <td>{{$b4[1][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$aritmetica1}}</b></td>
+                    <td><b>{{$aritmetica2}}</b></td>
+                    <td><b>{{$aritmetica3}}</b></td>
+                    <td><b>{{$aritmetica4}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>ÁLGEBRA</b></p></td>
                     <td class="text-left">Piensa matemáticamente situaciones de cantidad.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5"></td>
+                    <td>{{$b1[2][1]}}</td>
+                    <td>{{$b2[2][1]}}</td>
+                    <td>{{$b3[2][1]}}</td>
+                    <td>{{$b4[2][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$algebraProm}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de regularidad.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[2][2]}}</td>
+                    <td>{{$b2[2][2]}}</td>
+                    <td>{{$b3[2][2]}}</td>
+                    <td>{{$b4[2][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de forma y mov.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[2][3]}}</td>
+                    <td>{{$b2[2][3]}}</td>
+                    <td>{{$b3[2][3]}}</td>
+                    <td>{{$b4[2][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de gestión.</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[2][4]}}</td>
+                    <td>{{$b2[2][4]}}</td>
+                    <td>{{$b3[2][4]}}</td>
+                    <td>{{$b4[2][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$algebra1}}</b></td>
+                    <td><b>{{$algebra2}}</b></td>
+                    <td><b>{{$algebra3}}</b></td>
+                    <td><b>{{$algebra4}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>GEOMETRÍA</b></p></td>
                     <td class="text-left">Piensa matemáticamente situaciones de cantidad.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5"></td>
+                    <td>{{$b1[3][1]}}</td>
+                    <td>{{$b2[3][1]}}</td>
+                    <td>{{$b3[3][1]}}</td>
+                    <td>{{$b4[3][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$geometriaProm}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de regularidad.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[3][2]}}</td>
+                    <td>{{$b2[3][2]}}</td>
+                    <td>{{$b3[3][2]}}</td>
+                    <td>{{$b4[3][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de forma y mov.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[3][3]}}</td>
+                    <td>{{$b2[3][3]}}</td>
+                    <td>{{$b3[3][3]}}</td>
+                    <td>{{$b4[3][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de gestión.</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$b1[3][4]}}</b></td>
+                    <td><b>{{$b2[3][4]}}</b></td>
+                    <td><b>{{$b3[3][4]}}</b></td>
+                    <td><b>{{$b4[3][4]}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$geometria1}}</b></td>
+                    <td><b>{{$geometria2}}</b></td>
+                    <td><b>{{$geometria3}}</b></td>
+                    <td><b>{{$geometria4}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>TRIGONOMETRÍA</b></p></td>
                     <td class="text-left">Piensa matemáticamente situaciones de cantidad.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5"></td>
+                    <td>{{$b1[4][1]}}</td>
+                    <td>{{$b2[4][1]}}</td>
+                    <td>{{$b3[4][1]}}</td>
+                    <td>{{$b4[4][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$trigonometriaProm}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de regularidad.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[4][2]}}</td>
+                    <td>{{$b2[4][2]}}</td>
+                    <td>{{$b3[4][2]}}</td>
+                    <td>{{$b4[4][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de forma y mov.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[4][3]}}</td>
+                    <td>{{$b2[4][3]}}</td>
+                    <td>{{$b3[4][3]}}</td>
+                    <td>{{$b4[4][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de gestión.</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[4][4]}}</td>
+                    <td>{{$b2[4][4]}}</td>
+                    <td>{{$b3[4][4]}}</td>
+                    <td>{{$b4[4][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$trigonometria1}}</b></td>
+                    <td><b>{{$trigonometria2}}</b></td>
+                    <td><b>{{$trigonometria3}}</b></td>
+                    <td><b>{{$trigonometria4}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>RAZ.<br>MATEMÁTICO</b></p></td>
                     <td class="text-left">Piensa matemáticamente situaciones de cantidad.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5"></td>
+                    <td>{{$b1[5][1]}}</td>
+                    <td>{{$b2[5][1]}}</td>
+                    <td>{{$b3[5][1]}}</td>
+                    <td>{{$b4[5][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$rmProm}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de regularidad.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[5][2]}}</td>
+                    <td>{{$b2[5][2]}}</td>
+                    <td>{{$b3[5][2]}}</td>
+                    <td>{{$b4[5][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de forma y mov.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[5][3]}}</td>
+                    <td>{{$b2[5][3]}}</td>
+                    <td>{{$b3[5][3]}}</td>
+                    <td>{{$b4[5][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Piensa matemáticamente situaciones de gestión.</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[5][4]}}</td>
+                    <td>{{$b2[5][4]}}</td>
+                    <td>{{$b3[5][4]}}</td>
+                    <td>{{$b4[5][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$rm1}}</b></td>
+                    <td><b>{{$rm2}}</b></td>
+                    <td><b>{{$rm3}}</b></td>
+                    <td><b>{{$rm4}}</b></td>
                 </tr>
                 <tr>
                     <td rowspan="20"  class="fondo"  style="font-size: 10px"><p class="verticalText"><b>COMUNICACIÓN</b></p></td>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>RAZ. <br> VERBAL</b></p></td>
                     <td class="text-left">Comprende textos orales</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5" style="font-size: 16px">12</td>
-                    <td rowspan="20" style="font-size: 16px">12</td>
+                    <td>{{$b1[6][1]}}</td>
+                    <td>{{$b2[6][1]}}</td>
+                    <td>{{$b3[6][1]}}</td>
+                    <td>{{$b4[6][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$rvProm}}</td>
+                    <td rowspan="20" style="font-size: 16px">{{$comunicacionProm}}</td>
                     <td rowspan="20" style="font-size: 16px"></td>
                 </tr>
                 <tr>
                     <td class="text-left">Se expresa oralmente</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[6][2]}}</td>
+                    <td>{{$b2[6][2]}}</td>
+                    <td>{{$b3[6][2]}}</td>
+                    <td>{{$b4[6][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Comprende textos escritos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[6][3]}}</td>
+                    <td>{{$b2[6][3]}}</td>
+                    <td>{{$b3[6][3]}}</td>
+                    <td>{{$b4[6][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Produce textos</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[6][4]}}</td>
+                    <td>{{$b2[6][4]}}</td>
+                    <td>{{$b3[6][4]}}</td>
+                    <td>{{$b4[6][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$rv1}}</b></td>
+                    <td><b>{{$rv2}}</b></td>
+                    <td><b>{{$rv3}}</b></td>
+                    <td><b>{{$rv4}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>PLAN <br> LECTOR</b></p></td>
                     <td class="text-left">Comprende textos orales</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5"></td>
+                    <td>{{$b1[7][1]}}</td>
+                    <td>{{$b2[7][1]}}</td>
+                    <td>{{$b3[7][1]}}</td>
+                    <td>{{$b4[7][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$plProm}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Se expresa oralmente</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[7][2]}}</td>
+                    <td>{{$b2[7][2]}}</td>
+                    <td>{{$b3[7][2]}}</td>
+                    <td>{{$b4[7][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Comprende textos escritos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[7][3]}}</td>
+                    <td>{{$b2[7][3]}}</td>
+                    <td>{{$b3[7][3]}}</td>
+                    <td>{{$b4[7][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Produce textos</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[7][4]}}</td>
+                    <td>{{$b2[7][4]}}</td>
+                    <td>{{$b3[7][4]}}</td>
+                    <td>{{$b4[7][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$pl1}}</b></td>
+                    <td><b>{{$pl2}}</b></td>
+                    <td><b>{{$pl3}}</b></td>
+                    <td><b>{{$pl4}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>LENGUAJE</b></p></td>
                     <td class="text-left">Comprende textos orales</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5"></td>
+                    <td>{{$b1[8][1]}}</td>
+                    <td>{{$b2[8][1]}}</td>
+                    <td>{{$b3[8][1]}}</td>
+                    <td>{{$b4[8][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$lenguajeProm}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Se expresa oralmente</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[8][2]}}</td>
+                    <td>{{$b2[8][2]}}</td>
+                    <td>{{$b3[8][2]}}</td>
+                    <td>{{$b4[8][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Comprende textos escritos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[8][3]}}</td>
+                    <td>{{$b2[8][3]}}</td>
+                    <td>{{$b3[8][3]}}</td>
+                    <td>{{$b4[8][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Produce textos</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[8][4]}}</td>
+                    <td>{{$b2[8][4]}}</td>
+                    <td>{{$b3[8][4]}}</td>
+                    <td>{{$b4[8][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$lenguaje1}}</b></td>
+                    <td><b>{{$lenguaje2}}</b></td>
+                    <td><b>{{$lenguaje3}}</b></td>
+                    <td><b>{{$lenguaje4}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>LITERATURA</b></p></td>
                     <td class="text-left">Comprende textos orales</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5"></td>
+                    <td>{{$b1[9][1]}}</td>
+                    <td>{{$b2[9][1]}}</td>
+                    <td>{{$b3[9][1]}}</td>
+                    <td>{{$b4[9][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$literaturaProm}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Se expresa oralmente</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[9][2]}}</td>
+                    <td>{{$b2[9][2]}}</td>
+                    <td>{{$b3[9][2]}}</td>
+                    <td>{{$b4[9][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Comprende textos escritos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[9][3]}}</td>
+                    <td>{{$b2[9][3]}}</td>
+                    <td>{{$b3[9][3]}}</td>
+                    <td>{{$b4[9][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Produce textos</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[9][4]}}</td>
+                    <td>{{$b2[9][4]}}</td>
+                    <td>{{$b3[9][4]}}</td>
+                    <td>{{$b4[9][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$literatura1}}</b></td>
+                    <td><b>{{$literatura2}}</b></td>
+                    <td><b>{{$literatura3}}</b></td>
+                    <td><b>{{$literatura4}}</b></td>
                 </tr>
                 <tr>
                     <td class="fondo" colspan="2" rowspan="5"><b>INGLÉS</b></td>
                     <td class="text-left">Comprende textos orales</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5">{{"12"}}</td> <!-- promedio -->
-                    <td rowspan="5">{{"12"}}</td>
-                    <td rowspan="5">{{"12"}}</td>
+                    <td>{{$b1[10][1]}}</td>
+                    <td>{{$b2[10][1]}}</td>
+                    <td>{{$b3[10][1]}}</td>
+                    <td>{{$b4[10][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$inglesProm}}</td> <!-- promedio -->
+                    <td rowspan="5" style="font-size: 16px">{{$inglesProm}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{""}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Se expresa oralmente</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[10][2]}}</td>
+                    <td>{{$b2[10][2]}}</td>
+                    <td>{{$b3[10][2]}}</td>
+                    <td>{{$b4[10][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Comprende textos escritos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[10][3]}}</td>
+                    <td>{{$b2[10][3]}}</td>
+                    <td>{{$b3[10][3]}}</td>
+                    <td>{{$b4[10][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Produce textos</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$b1[10][4]}}</b></td>
+                    <td><b>{{$b2[10][4]}}</b></td>
+                    <td><b>{{$b3[10][4]}}</b></td>
+                    <td><b>{{$b4[10][4]}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$ingles1}}</td>
+                    <td>{{$ingles2}}</td>
+                    <td>{{$ingles3}}</td>
+                    <td>{{$ingles4}}</td>
                 </tr>
                 <tr>
                     <td class="fondo" colspan="2" rowspan="3"><b>ARTE</b></td>
                     <td class="text-left">Expresión artística</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="3">{{"12"}}</td> <!-- promedio -->
-                    <td rowspan="3">{{"12"}}</td>
-                    <td rowspan="3">{{"12"}}</td>
+                    <td>{{$b1[11][1]}}</td>
+                    <td>{{$b2[11][1]}}</td>
+                    <td>{{$b3[11][1]}}</td>
+                    <td>{{$b4[11][1]}}</td>
+                    <td rowspan="3">{{$arteProm}}</td> <!-- promedio -->
+                    <td rowspan="3">{{$arteProm}}</td>
+                    <td rowspan="3">{{""}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Apreciación artística</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[11][2]}}</td>
+                    <td>{{$b2[11][2]}}</td>
+                    <td>{{$b3[11][2]}}</td>
+                    <td>{{$b4[11][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td><b>{{$arte1}}</b></td>
+                    <td><b>{{$arte2}}</b></td>
+                    <td><b>{{$arte3}}</b></td>
+                    <td><b>{{$arte4}}</b></td>
                 </tr>
                 <tr>
                     <td class="fondo" rowspan="15"><p class="verticalText"><b>CIENCIAS SOCIALES</b></p></td>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>HISTORIA<br> DEL PERÚ</b></p></td>
                     <td class="text-left">Construye interpretaciones históricas</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5">{{"3"}}</td> <!-- promedio -->
-                    <td rowspan="15">{{"12"}}</td>
-                    <td rowspan="15">{{"12"}}</td>
+                    <td>{{$b1[12][1]}}</td>
+                    <td>{{$b2[12][1]}}</td>
+                    <td>{{$b3[12][1]}}</td>
+                    <td>{{$b4[12][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$historiapProm}}</td> <!-- promedio -->
+                    <td rowspan="15">{{$socialesProm}}</td>
+                    <td rowspan="15">{{""}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Actua responsablemente en el ambiente</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[12][2]}}</td>
+                    <td>{{$b2[12][2]}}</td>
+                    <td>{{$b3[12][2]}}</td>
+                    <td>{{$b4[12][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Actua responsablemente respecto a los recursos econ.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[12][3]}}</td>
+                    <td>{{$b2[12][3]}}</td>
+                    <td>{{$b3[12][3]}}</td>
+                    <td>{{$b4[12][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Participa en asuntos públicos promoviendo el bien común</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[12][4]}}</td>
+                    <td>{{$b2[12][4]}}</td>
+                    <td>{{$b3[12][4]}}</td>
+                    <td>{{$b4[12][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td><b>{{$historiap1}}</b></td>
+                    <td><b>{{$historiap2}}</b></td>
+                    <td><b>{{$historiap3}}</b></td>
+                    <td><b>{{$historiap4}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>HISTORIA<br>UNIVERSAL</b></p></td>
                     <td class="text-left">Construye interpretaciones históricas</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5">{{"3"}}</td> <!-- promedio -->
+                    <td>{{$b1[13][1]}}</td>
+                    <td>{{$b2[13][1]}}</td>
+                    <td>{{$b3[13][1]}}</td>
+                    <td>{{$b4[13][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$historiauProm}}</td> <!-- promedio -->
                 </tr>
                 <tr>
                     <td class="text-left">Actua responsablemente en el ambiente</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[13][2]}}</td>
+                    <td>{{$b2[13][2]}}</td>
+                    <td>{{$b3[13][2]}}</td>
+                    <td>{{$b4[13][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Actua responsablemente respecto a los recursos econ.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[13][3]}}</td>
+                    <td>{{$b2[13][3]}}</td>
+                    <td>{{$b3[13][3]}}</td>
+                    <td>{{$b4[13][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Participa en asuntos públicos promoviendo el bien común</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[13][4]}}</td>
+                    <td>{{$b2[13][4]}}</td>
+                    <td>{{$b3[13][4]}}</td>
+                    <td>{{$b4[13][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$historiau1}}</td>
+                    <td>{{$historiau2}}</td>
+                    <td>{{$historiau3}}</td>
+                    <td>{{$historiau4}}</td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>GEOGRAFÍA</b></p></td>
                     <td class="text-left">Construye interpretaciones históricas</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5">{{"3"}}</td> <!-- promedio -->
+                    <td>{{$b1[14][1]}}</td>
+                    <td>{{$b2[14][1]}}</td>
+                    <td>{{$b3[14][1]}}</td>
+                    <td>{{$b4[14][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$geografiaProm}}</td> <!-- promedio -->
                 </tr>
                 <tr>
                     <td class="text-left">Actua responsablemente en el ambiente</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[14][2]}}</td>
+                    <td>{{$b2[14][2]}}</td>
+                    <td>{{$b3[14][2]}}</td>
+                    <td>{{$b4[14][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Actua responsablemente respecto a los recursos econ.</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[14][3]}}</td>
+                    <td>{{$b2[14][3]}}</td>
+                    <td>{{$b3[14][3]}}</td>
+                    <td>{{$b4[14][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Participa en asuntos públicos promoviendo el bien común</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[14][4]}}</td>
+                    <td>{{$b2[14][4]}}</td>
+                    <td>{{$b3[14][4]}}</td>
+                    <td>{{$b4[14][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td><b>{{$geografia1}}</b></td>
+                    <td><b>{{$geografia2}}</b></td>
+                    <td><b>{{$geografia3}}</b></td>
+                    <td><b>{{$geografia4}}</b></td>
                 </tr>
                 <tr>
                     <td class="fondo" colspan="2" rowspan="3"><b>FORMACIÓN<br> CIUDADANA <br>Y CÍVICA</b></td>
                     <td class="text-left">Convive respetándose a si mismo y a los demás</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="3">{{"12"}}</td> <!-- promedio -->
-                    <td rowspan="3">{{"12"}}</td>
-                    <td rowspan="3">{{"12"}}</td>
+                    <td>{{$b1[15][1]}}</td>
+                    <td>{{$b2[15][1]}}</td>
+                    <td>{{$b3[15][1]}}</td>
+                    <td>{{$b4[15][1]}}</td>
+                    <td rowspan="3">{{$civicaProm}}</td> <!-- promedio -->
+                    <td rowspan="3">{{$civicaProm}}</td>
+                    <td rowspan="3">{{""}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">participa en los asuntos públicos promoviendo el bien común</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[15][2]}}</td>
+                    <td>{{$b2[15][2]}}</td>
+                    <td>{{$b3[15][2]}}</td>
+                    <td>{{$b4[15][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td><b>{{$civica1}}</b></td>
+                    <td><b>{{$civica2}}</b></td>
+                    <td><b>{{$civica3}}</b></td>
+                    <td><b>{{$civica4}}</b></td>
                 </tr>
                 <tr>
                     <td class="fondo" colspan="2" rowspan="4"><b>PERSONA<br>FAMILIA Y <br>RELACIONES<br> HUMANAS </b></td>
                     <td class="text-left">Afirma su identidad</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="4">{{"12"}}</td> <!-- promedio -->
-                    <td rowspan="4">{{"12"}}</td>
-                    <td rowspan="4">{{"12"}}</td>
+                    <td>{{$b1[16][1]}}</td>
+                    <td>{{$b2[16][1]}}</td>
+                    <td>{{$b3[16][1]}}</td>
+                    <td>{{$b4[16][1]}}</td>
+                    <td rowspan="4">{{$pfrhProm}}</td> <!-- promedio -->
+                    <td rowspan="4">{{$pfrhProm}}</td>
+                    <td rowspan="4">{{""}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Construye su corporeidad</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[16][2]}}</td>
+                    <td>{{$b2[16][2]}}</td>
+                    <td>{{$b3[16][2]}}</td>
+                    <td>{{$b4[16][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Convive respetándose a si mismo y a los demás</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[16][3]}}</td>
+                    <td>{{$b2[16][3]}}</td>
+                    <td>{{$b3[16][3]}}</td>
+                    <td>{{$b4[16][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td><b>{{$pfrh1}}</b></td>
+                    <td><b>{{$pfrh2}}</b></td>
+                    <td><b>{{$pfrh3}}</b></td>
+                    <td><b>{{$pfrh4}}</b></td>
                 </tr>
                 <tr>
                     <td class="fondo" colspan="2" rowspan="4"><b>EDUCACIÓN<br>FÍSICA </b></td>
                     <td class="text-left">Compren. y des. de la Corp. y la Salud</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="4">{{"12"}}</td> <!-- promedio -->
-                    <td rowspan="4">{{"12"}}</td>
-                    <td rowspan="4">{{"12"}}</td>
+                    <td>{{$b1[17][1]}}</td>
+                    <td>{{$b2[17][1]}}</td>
+                    <td>{{$b3[17][1]}}</td>
+                    <td>{{$b4[17][1]}}</td>
+                    <td rowspan="4">{{$efProm}}</td> <!-- promedio -->
+                    <td rowspan="4">{{$efProm}}</td>
+                    <td rowspan="4">{{$efProm}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Dominio corporal y expresión creativa</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[17][2]}}</td>
+                    <td>{{$b2[17][2]}}</td>
+                    <td>{{$b3[17][2]}}</td>
+                    <td>{{$b4[17][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Convivencia e interacción sociomotriz</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[17][3]}}</td>
+                    <td>{{$b2[17][3]}}</td>
+                    <td>{{$b3[17][3]}}</td>
+                    <td>{{$b4[17][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td><b>{{$ef1}}</b></td>
+                    <td><b>{{$ef2}}</b></td>
+                    <td><b>{{$ef3}}</b></td>
+                    <td><b>{{$ef4}}</b></td>
                 </tr>
                 <tr>
                     <td class="fondo" colspan="2" rowspan="3"><b>EDUCACIÓN <br>RELIGIOSA</b></td>
                     <td class="text-left">Comprensión doctrinal cristiana</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="3">{{"12"}}</td> <!-- promedio -->
-                    <td rowspan="3">{{"12"}}</td>
-                    <td rowspan="3">{{"12"}}</td>
+                    <td>{{$b1[18][1]}}</td>
+                    <td>{{$b2[18][1]}}</td>
+                    <td>{{$b3[18][1]}}</td>
+                    <td>{{$b4[18][1]}}</td>
+                    <td rowspan="3">{{$erProm}}</td> <!-- promedio -->
+                    <td rowspan="3">{{$erProm}}</td>
+                    <td rowspan="3">{{""}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Dicernimiento de la fé</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[18][2]}}</td>
+                    <td>{{$b2[18][2]}}</td>
+                    <td>{{$b3[18][2]}}</td>
+                    <td>{{$b4[18][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td><b>{{$er1}}</b></td>
+                    <td><b>{{$er2}}</b></td>
+                    <td><b>{{$er3}}</b></td>
+                    <td><b>{{$er4}}</b></td>
                 </tr>
                 <tr>
                     <td rowspan="15" class="fondo" style="font-size: 10px"><p class="verticalText"><b>CIENCIA <br>TECNOLOGÍA <br>Y AMBIENTE</b></p></td>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>FÍSICA</b></p></td>
                     <td class="text-left">Indaga mediante métodos científicos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5" style="font-size: 16px">12</td>
-                    <td rowspan="15" style="font-size: 16px">12</td>
+                    <td>{{$b1[19][1]}}</td>
+                    <td>{{$b2[19][1]}}</td>
+                    <td>{{$b3[19][1]}}</td>
+                    <td>{{$b4[19][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$fisicaProm}}</td>
+                    <td rowspan="15" style="font-size: 16px">{{$cienciasProm}}</td>
                     <td rowspan="15" style="font-size: 16px"></td>
                 </tr>
                 <tr>
                     <td class="text-left">Explica el mundo físico</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[19][2]}}</td>
+                    <td>{{$b2[19][2]}}</td>
+                    <td>{{$b3[19][2]}}</td>
+                    <td>{{$b4[19][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Diseña y produce prototipos tecnológicos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[19][3]}}</td>
+                    <td>{{$b2[19][3]}}</td>
+                    <td>{{$b3[19][3]}}</td>
+                    <td>{{$b4[19][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Construye una posición crítica sobre la ciencia</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[19][4]}}</td>
+                    <td>{{$b2[19][4]}}</td>
+                    <td>{{$b3[19][4]}}</td>
+                    <td>{{$b4[19][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$fisica1}}</b></td>
+                    <td><b>{{$fisica2}}</b></td>
+                    <td><b>{{$fisica3}}</b></td>
+                    <td><b>{{$fisica4}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>QUÍMICA</b></p></td>
                     <td class="text-left">Indaga mediante métodos científicos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5"></td>
+                    <td>{{$b1[20][1]}}</td>
+                    <td>{{$b2[20][1]}}</td>
+                    <td>{{$b3[20][1]}}</td>
+                    <td>{{$b4[20][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$quimicaProm}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Explica el mundo físico</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[20][2]}}</td>
+                    <td>{{$b2[20][2]}}</td>
+                    <td>{{$b3[20][2]}}</td>
+                    <td>{{$b4[20][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Diseña y produce prototipos tecnológicos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[20][3]}}</td>
+                    <td>{{$b2[20][3]}}</td>
+                    <td>{{$b3[20][3]}}</td>
+                    <td>{{$b4[20][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Construye una posición crítica sobre la ciencia</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[20][4]}}</td>
+                    <td>{{$b2[20][4]}}</td>
+                    <td>{{$b3[20][4]}}</td>
+                    <td>{{$b4[20][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$quimica1}}</b></td>
+                    <td><b>{{$quimica2}}</b></td>
+                    <td><b>{{$quimica3}}</b></td>
+                    <td><b>{{$quimica4}}</b></td>
                 </tr>
                 <tr>
                     <td class="text-center fondo" rowspan="5"><p class="verticalText"><b>BIOLOGÍA</b></p></td>
                     <td class="text-left">Indaga mediante métodos científicos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="5"></td>
+                    <td>{{$b1[21][1]}}</td>
+                    <td>{{$b2[21][1]}}</td>
+                    <td>{{$b3[21][1]}}</td>
+                    <td>{{$b4[21][1]}}</td>
+                    <td rowspan="5" style="font-size: 16px">{{$biologiaProm}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Explica el mundo físico</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[21][2]}}</td>
+                    <td>{{$b2[21][2]}}</td>
+                    <td>{{$b3[21][2]}}</td>
+                    <td>{{$b4[21][2]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Diseña y produce prototipos tecnológicos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[21][3]}}</td>
+                    <td>{{$b2[21][3]}}</td>
+                    <td>{{$b3[21][3]}}</td>
+                    <td>{{$b4[21][3]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Construye una posición crítica sobre la ciencia</td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td>{{$b1[21][4]}}</td>
+                    <td>{{$b2[21][4]}}</td>
+                    <td>{{$b3[21][4]}}</td>
+                    <td>{{$b4[21][4]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
-                    <td><b>{{"12"}}</b></td>
+                    <td><b>{{$biologia1}}</b></td>
+                    <td><b>{{$biologia2}}</b></td>
+                    <td><b>{{$biologia3}}</b></td>
+                    <td><b>{{$biologia4}}</b></td>
                 </tr>
                 <tr>
                     <td class="fondo" colspan="2" rowspan="4"><b>EDUCACIÓN<br>PARA EL<br>TRABAJO </b></td>
                     <td class="text-left">Gestión de procesos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td rowspan="4">{{"12"}}</td> <!-- promedio -->
-                    <td rowspan="4">{{"12"}}</td>
-                    <td rowspan="4">{{"12"}}</td>
+                    <td>{{$b1[22][1]}}</td>
+                    <td>{{$b2[22][1]}}</td>
+                    <td>{{$b3[22][1]}}</td>
+                    <td>{{$b4[22][1]}}</td>
+                    <td rowspan="4">{{$eptProm}}</td> <!-- promedio -->
+                    <td rowspan="4">{{$eptProm}}</td>
+                    <td rowspan="4">{{""}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Ejecución de procesos</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[22][1]}}</td>
+                    <td>{{$b2[22][1]}}</td>
+                    <td>{{$b3[22][1]}}</td>
+                    <td>{{$b4[22][1]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left">Comprensión y aplicación de tecnología</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td>{{$b1[22][1]}}</td>
+                    <td>{{$b2[22][1]}}</td>
+                    <td>{{$b3[22][1]}}</td>
+                    <td>{{$b4[22][1]}}</td>
                 </tr>
                 <tr>
                     <td class="text-left"><b>PROMEDIO</b></td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
-                    <td>{{"12"}}</td>
+                    <td><b>{{$ept1}}</b></td>
+                    <td><b>{{$ept2}}</b></td>
+                    <td><b>{{$ept3}}</b></td>
+                    <td><b>{{$ept4}}</b></td>
                 </tr>
             </table>
         </div>
@@ -2612,26 +1761,26 @@
                 <tr>
                     <td width="124">&nbsp;</td>
                     <td>
-                            <table  border="1" cellpadding="0" cellspacing="0" style="font-size:9px;text-align:center">
-                                <tr>
-                                    <td class="text-left fondo" width="181" height="15"><b>ORDEN DE MÉRITO POR BIMESTRE</b></td>
-                                    <td width="17"><b>{{"12"}}</b></td>
-                                    <td width="17"><b>{{"12"}}</b></td>
-                                    <td width="17"><b>{{"12"}}</b></td>
-                                    <td width="17"><b>{{"12"}}</b></td>
-                                    <td class="text-left fondo" width="63"><b>ANUAL</b></td>
-                                    <td width="29"><b>{{"12"}}</b></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-left fondo" width="181" height="15"><b>COMPORTAMIENTO</b></td>
-                                    <td width="17"><b>{{"12"}}</b></td>
-                                    <td width="17"><b>{{"12"}}</b></td>
-                                    <td width="17"><b>{{"12"}}</b></td>
-                                    <td width="17"><b>{{"12"}}</b></td>
-                                    <td class="text-left fondo" width="63"><b>ANUAL</b></td>
-                                    <td width="29"><b>{{"12"}}</b></td>
-                                </tr>
-                            </table>
+                        <table  border="1" cellpadding="0" cellspacing="0" style="font-size:9px;text-align:center">
+                            <tr>
+                                <td class="text-left fondo" width="181" height="15"><b>ORDEN DE MÉRITO POR BIMESTRE</b></td>
+                                <td width="17"><b>{{""}}</b></td>
+                                <td width="17"><b>{{""}}</b></td>
+                                <td width="17"><b>{{""}}</b></td>
+                                <td width="17"><b>{{""}}</b></td>
+                                <td class="text-left fondo" width="63"><b>ANUAL</b></td>
+                                <td width="29"><b>{{""}}</b></td>
+                            </tr>
+                            <tr>
+                                <td class="text-left fondo" width="181" height="15"><b>COMPORTAMIENTO</b></td>
+                                <td width="17"><b>{{""}}</b></td>
+                                <td width="17"><b>{{""}}</b></td>
+                                <td width="17"><b>{{""}}</b></td>
+                                <td width="17"><b>{{""}}</b></td>
+                                <td class="text-left fondo" width="63"><b>ANUAL</b></td>
+                                <td width="29"><b>{{""}}</b></td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
             </table>

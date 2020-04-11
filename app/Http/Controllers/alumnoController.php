@@ -59,8 +59,13 @@ class alumnoController extends Controller
     }
     public function boletainformativa()
     {
+        
         if(isset(\Auth::user()->user))
         {
+            $notasb1 = $this->notas(1)["notas"];
+            $notasb2 = $this->notas(2)["notas"];
+            $notasb3 = $this->notas(3)["notas"];
+            $notasb4 = $this->notas(4)["notas"];
             $datos = $this->datos();
             $dato  = $datos["dato"];
             $nivel = $dato->Nivel;
@@ -68,19 +73,19 @@ class alumnoController extends Controller
             if($nivel == "PRIMARIA")
             {
                 if ($grado <= 3) {
-                    $pdf = PDF::loadView('boletaprimaria',compact("dato"));
+                    $pdf = PDF::loadView('boletaprimaria',compact("dato","notasb1","notasb2","notasb3","notasb4"));
                     return $pdf->stream('boleta.pdf');
                 }else {
-                    $pdf = PDF::loadView('boletaprimaria2',compact("dato"));
+                    $pdf = PDF::loadView('boletaprimaria2',compact("dato","notasb1","notasb2","notasb3","notasb4"));
                     return $pdf->stream('boleta.pdf');
                 }
                 
             }elseif ($nivel == "SECUNDARIA"){
                 if ($grado <= 2) {
-                    $pdf = PDF::loadView('boletasecundaria',compact("dato"));
+                    $pdf = PDF::loadView('boletasecundaria',compact("dato","notasb1","notasb2","notasb3","notasb4"));
                     return $pdf->stream('boleta.pdf');
                 }else {
-                    $pdf = PDF::loadView('boletasecundaria2',compact("dato"));
+                    $pdf = PDF::loadView('boletasecundaria2',compact("dato","notasb1","notasb2","notasb3","notasb4"));
                     return $pdf->stream('boleta.pdf');
                 }
             }
@@ -232,6 +237,26 @@ class alumnoController extends Controller
         WHERE ag.DNIAlumno = '$user' AND ag.Lectivo = year(curdate())");
         $dato = $datos[0];
         return compact("dato");
+    }
+    public function notas($bimestre)
+    {
+        $user = \Auth::user()->user;
+        $notas = array();
+        
+        $objNotas = \DB::select("SELECT a.Posicion as curso ,c.Posicion as capacidad, rp.Promedio 
+        FROM registropre rp
+        JOIN area a ON rp.IDGradoCurso = a.IDArea
+        JOIN capacidad c ON rp.IDCursoCapacidad = c.IDCapacidad
+        WHERE rp.Bimestre = $bimestre AND 
+        rp.Lectivo = year(curdate()) AND 
+        rp.DNIAlumno = '$user'
+        ORDER BY a.Posicion,c.Posicion");
+
+        foreach ($objNotas as $key) {
+            $notas[$key->curso][$key->capacidad] = $key->Promedio;
+        }
+
+        return compact('notas');
     }
     /**
     *SELECT tbl.Curso,GROUP_CONCAT(tbl.Bimestre) as bimestre,GROUP_CONCAT(tbl.promedio) as promedio 

@@ -35,30 +35,53 @@ class RegistropreController extends Controller
      */
     public function store(Request $request)
     {
-        $condicion = false;
+        $condicion = true;
         $hoy = date("Y-m-d");
         $lectivo = date("Y");
         $alumnos = $request->alumnos;
         $registro = $request->registro;
-        // print_r($regiregistrotro);
+        $Bimestre         =  $request->registro["bimestre"];
+        $IDGradoCurso     =  $request->registro["area"];
+        $IDCursoCapacidad =  $request->registro["capacidad"];
+        $msj              =  " ";
         foreach ($alumnos as $key) {
-            $registro = new registropre();
-            $registro->DNIAlumno        =  $key["dni"];
-            $registro->Lectivo          =  $lectivo;
-            $registro->Bimestre         =  $request->registro["bimestre"];
-            $registro->IDGradoCurso     =  $request->registro["area"];
-            $registro->IDCursoCapacidad =  $request->registro["capacidad"];
-            $registro->C1               =  $key["c1"];
-            $registro->C2               =  $key["c2"];
-            $registro->C3               =  $key["c3"];
-            $registro->ExamenBimestral  =  $key["bimestral"];
-            $registro->Simulacro        =  $key["simulacro"];
-            $registro->Promedio         =  $key["promedio"];
-            $registro->created_at       =  $hoy;
-            $registro->save();
+            $cant = Registropre::select("*")->where("DNIAlumno",$key["dni"])
+                    ->where("Lectivo",$lectivo)->where("Bimestre",$Bimestre)
+                    ->where("IDGradoCurso",$IDGradoCurso)->where("IDCursoCapacidad",$IDCursoCapacidad)
+                    ->get()->count();
+            if($cant == 0)
+            {
+                $registro = new registropre();
+                $registro->DNIAlumno        =  $key["dni"];
+                $registro->Lectivo          =  $lectivo;
+                $registro->Bimestre         =  $Bimestre;
+                $registro->IDGradoCurso     =  $IDGradoCurso;
+                $registro->IDCursoCapacidad =  $IDCursoCapacidad;
+                $registro->C1               =  $key["c1"];
+                $registro->C2               =  $key["c2"];
+                $registro->C3               =  $key["c3"];
+                $registro->ExamenBimestral  =  $key["bimestral"];
+                $registro->Simulacro        =  $key["simulacro"];
+                $registro->Promedio         =  $key["promedio"];
+                $registro->created_at       =  $hoy;
+                $registro->save();
+            }else{
+                $condicion  = false;
+                $msj        = $msj." ".$key["dni"];
+            }        
+        }
+        if($condicion)
+        {
+            $type   = "success";
+            $text   = "Se ingresaron todos los registros";
+            $title  = "Bien";
+        }else{
+            $type   = "warning";
+            $text   = "Los registros de los siguientes alumnos: ".$msj." ya fueron ingresados";
+            $title  = "Advertencia";
         }
     
-        return compact(true);
+        return compact("type","text","title");
     }
 
     /**

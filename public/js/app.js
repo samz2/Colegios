@@ -100184,6 +100184,8 @@ module.exports = Component.exports
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_util___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_util__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 //
 //
 //
@@ -100427,26 +100429,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 alumnos: this.alumnos
             }).then(function (data) {
 
-                if (data.data.condicion) {
-                    swal({
-                        // position: 'top-en]d',
-                        type: 'success',
-                        title: 'Registro ingresado Corretamente',
-                        showConfirmButton: false,
-                        timer: 2000
-                    });
-                } else {
-                    swal({
-                        // position: 'top-en]d',
-                        type: 'error',
-                        title: 'Registro ya fue ingresado!',
-                        showConfirmButton: false,
-                        timer: 2000
-                    });
-                }
-                // setTimeout(() => {
-                // 	location.reload();
-                // }, 1500);
+                swal(_defineProperty({
+                    type: data.data.type,
+                    title: data.data.title
+                }, "title", data.data.text));
+                setTimeout(function () {
+                    location.reload();
+                }, 2000);
             }).catch(function (error) {
                 console.log(error);
             });
@@ -100456,7 +100445,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.capacidad = this.capacidades[select.selectedIndex].Descripcion;
         },
         validar: function validar(index) {
-            // this.prom(index);
+            if (this.alumnos[index].c1 == null || this.alumnos[index].c2 == null || this.alumnos[index].c3 == null || this.alumnos[index].bimestral == null || this.alumnos[index].c1 == '' || this.alumnos[index].c2 == '' || this.alumnos[index].c3 == '' || this.alumnos[index].bimestral == '') {
+                return;
+            }
             var n = 0;
             var acum = 0;
             var prom = 0;
@@ -100810,7 +100801,10 @@ var render = function() {
                       _vm._v(" "),
                       _c(
                         "td",
-                        { staticClass: "text-center", attrs: { colspan: "6" } },
+                        {
+                          staticClass: "text-center bg-info",
+                          attrs: { colspan: "6" }
+                        },
                         [_c("b", [_vm._v(_vm._s(_vm.area))])]
                       )
                     ]),
@@ -100820,7 +100814,10 @@ var render = function() {
                       _vm._v(" "),
                       _c(
                         "td",
-                        { staticClass: "text-center", attrs: { colspan: "6" } },
+                        {
+                          staticClass: "text-center bg-info",
+                          attrs: { colspan: "6" }
+                        },
                         [_c("b", [_vm._v(_vm._s(_vm.nombre))])]
                       )
                     ]),
@@ -100830,7 +100827,10 @@ var render = function() {
                       _vm._v(" "),
                       _c(
                         "td",
-                        { staticClass: "text-center", attrs: { colspan: "6" } },
+                        {
+                          staticClass: "text-center bg-info",
+                          attrs: { colspan: "6" }
+                        },
                         [_c("b", [_vm._v(_vm._s(_vm.bimestre))])]
                       )
                     ]),
@@ -100838,9 +100838,11 @@ var render = function() {
                     _c("tr", [
                       _vm._m(6),
                       _vm._v(" "),
-                      _c("td", { attrs: { colspan: "6" } }, [
-                        _c("b", [_vm._v(_vm._s(_vm.capacidad))])
-                      ])
+                      _c(
+                        "td",
+                        { staticClass: "bg-info", attrs: { colspan: "6" } },
+                        [_c("b", [_vm._v(_vm._s(_vm.capacidad))])]
+                      )
                     ]),
                     _vm._v(" "),
                     _vm._m(7),
@@ -100873,8 +100875,7 @@ var render = function() {
                               attrs: {
                                 type: "text",
                                 size: "4",
-                                onkeypress:
-                                  "return event.charCode >= 48 && event.charCode <= 57",
+                                onkeypress: "return solonumeros(event)",
                                 maxlength: "2"
                               },
                               domProps: { value: a.c1 },
@@ -100905,8 +100906,7 @@ var render = function() {
                               attrs: {
                                 type: "text",
                                 size: "4",
-                                onkeypress:
-                                  "return event.charCode >= 48 && event.charCode <= 57",
+                                onkeypress: "return solonumeros(event)",
                                 maxlength: "2"
                               },
                               domProps: { value: a.c2 },
@@ -100937,8 +100937,7 @@ var render = function() {
                               attrs: {
                                 type: "text",
                                 size: "4",
-                                onkeypress:
-                                  "return event.charCode >= 48 && event.charCode <= 57",
+                                onkeypress: "return solonumeros(event)",
                                 maxlength: "2"
                               },
                               domProps: { value: a.c3 },
@@ -100969,8 +100968,7 @@ var render = function() {
                               attrs: {
                                 type: "text",
                                 size: "4",
-                                onkeypress:
-                                  "return event.charCode >= 48 && event.charCode <= 57",
+                                onkeypress: "return solonumeros(event)",
                                 maxlength: "2"
                               },
                               domProps: { value: a.bimestral },
@@ -101090,7 +101088,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("tr", [
-      _c("td", { attrs: { colspan: "8" } }, [
+      _c("td", { staticClass: "bg-primary", attrs: { colspan: "8" } }, [
         _c("b", [_vm._v('I.E.P. "LA PRE"')])
       ])
     ])
@@ -101100,7 +101098,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("tr", [
-      _c("td", { attrs: { colspan: "8" } }, [
+      _c("td", { staticClass: "bg-secondary", attrs: { colspan: "8" } }, [
         _c("b", [_vm._v("REGISTRO AUXILIAR DE NOTAS 2019")])
       ])
     ])
@@ -101109,33 +101107,41 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("td", { staticClass: "text-right", attrs: { colspan: "2" } }, [
-      _c("b", [_vm._v("ASIGNATURA")])
-    ])
+    return _c(
+      "td",
+      { staticClass: "text-right bg-warning", attrs: { colspan: "2" } },
+      [_c("b", [_vm._v("ASIGNATURA")])]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("td", { staticClass: "text-right", attrs: { colspan: "2" } }, [
-      _c("b", [_vm._v("PROFESOR")])
-    ])
+    return _c(
+      "td",
+      { staticClass: "text-right bg-warning", attrs: { colspan: "2" } },
+      [_c("b", [_vm._v("PROFESOR")])]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("td", { staticClass: "text-right", attrs: { colspan: "2" } }, [
-      _c("b", [_vm._v("BIMESTRE")])
-    ])
+    return _c(
+      "td",
+      { staticClass: "text-right bg-warning", attrs: { colspan: "2" } },
+      [_c("b", [_vm._v("BIMESTRE")])]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("td", { staticClass: "text-right", attrs: { colspan: "2" } }, [
-      _c("b", [_vm._v("CAPACIDAD")])
-    ])
+    return _c(
+      "td",
+      { staticClass: "text-right bg-warning", attrs: { colspan: "2" } },
+      [_c("b", [_vm._v("CAPACIDAD")])]
+    )
   },
   function() {
     var _vm = this
