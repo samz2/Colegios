@@ -21,7 +21,7 @@
         "@types/hapi": "^17.8.0",
         "@types/lokijs": "^1.5.2",
         "@types/uuid": "^3.4.4",
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "boom": "^7.3.0",
         "bootstrap": "^4.0.0",
         "cross-env": "^5.1",
